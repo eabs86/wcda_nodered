@@ -1,0 +1,6214 @@
+[
+    {
+        "id": "3c907fa3f9f37479",
+        "type": "tab",
+        "label": "Integração IoT",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "30e0cb4e.ea6f24",
+        "type": "tab",
+        "label": "Inject",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "7ec8e9189ea43b06",
+        "type": "tab",
+        "label": "Tutorial Dashboard",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "587f8b93.289ac4",
+        "type": "tab",
+        "label": "Joining / Splitting ",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "bd775e9c70c5b9e8",
+        "type": "subflow",
+        "name": "Beacons PPC23",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 60,
+                "y": 180,
+                "wires": [
+                    {
+                        "id": "74b2fd2c5ffb39a3"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 440,
+                "y": 160,
+                "wires": [
+                    {
+                        "id": "74b2fd2c5ffb39a3",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "ce73c0daf68d2150",
+        "type": "subflow",
+        "name": "Beacons PPC22",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 120,
+                "y": 200,
+                "wires": [
+                    {
+                        "id": "0231a9481cc6d57c"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 520,
+                "y": 180,
+                "wires": [
+                    {
+                        "id": "0231a9481cc6d57c",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "686c9516b571d587",
+        "type": "subflow",
+        "name": "Beacons PPC21",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 80,
+                "y": 180,
+                "wires": [
+                    {
+                        "id": "645ff113fbebfbca"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 480,
+                "y": 180,
+                "wires": [
+                    {
+                        "id": "645ff113fbebfbca",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "5113a8025215240c",
+        "type": "subflow",
+        "name": "Beacons PPC20",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 80,
+                "y": 180,
+                "wires": [
+                    {
+                        "id": "c7f7ab4d5fe473b7"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 500,
+                "y": 140,
+                "wires": [
+                    {
+                        "id": "c7f7ab4d5fe473b7",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "4174facdb1dddf54",
+        "type": "subflow",
+        "name": "Beacons PPC19",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 60,
+                "y": 160,
+                "wires": [
+                    {
+                        "id": "70f6de3d445bb249"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 480,
+                "y": 160,
+                "wires": [
+                    {
+                        "id": "70f6de3d445bb249",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "03b9b5a0e694efd7",
+        "type": "subflow",
+        "name": "Beacons PPC18",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 60,
+                "y": 160,
+                "wires": [
+                    {
+                        "id": "51afdc989f8d2b2a"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 440,
+                "y": 160,
+                "wires": [
+                    {
+                        "id": "51afdc989f8d2b2a",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "452233a513142a17",
+        "type": "subflow",
+        "name": "Beacons PPC17",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 40,
+                "y": 140,
+                "wires": [
+                    {
+                        "id": "e1b8871012266da2"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 400,
+                "y": 140,
+                "wires": [
+                    {
+                        "id": "e1b8871012266da2",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "ae3abf3458e4e272",
+        "type": "subflow",
+        "name": "Beacons PPC16",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 40,
+                "y": 140,
+                "wires": [
+                    {
+                        "id": "205299fac3764483"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 420,
+                "y": 140,
+                "wires": [
+                    {
+                        "id": "205299fac3764483",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "276e0fe8eb461e8c",
+        "type": "subflow",
+        "name": "Beacons PPC15",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 60,
+                "y": 160,
+                "wires": [
+                    {
+                        "id": "8e171aa1dd89e6c5"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 420,
+                "y": 160,
+                "wires": [
+                    {
+                        "id": "8e171aa1dd89e6c5",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "f91d4c189c867201",
+        "type": "subflow",
+        "name": "Beacons PPC13",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 60,
+                "y": 240,
+                "wires": [
+                    {
+                        "id": "b367b2c759c5a633"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 440,
+                "y": 200,
+                "wires": [
+                    {
+                        "id": "b367b2c759c5a633",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "799e4fb6774b8638",
+        "type": "subflow",
+        "name": "Beacons PPC12",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 140,
+                "y": 200,
+                "wires": [
+                    {
+                        "id": "60743cf64a38b8dd"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 500,
+                "y": 200,
+                "wires": [
+                    {
+                        "id": "60743cf64a38b8dd",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "fc41924807ae481f",
+        "type": "subflow",
+        "name": "Beacons PPC11",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 140,
+                "y": 160,
+                "wires": [
+                    {
+                        "id": "b78be0f21e92dc2b"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 540,
+                "y": 140,
+                "wires": [
+                    {
+                        "id": "b78be0f21e92dc2b",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "a64a9ee1b173a97d",
+        "type": "subflow",
+        "name": "Beacons PPC8",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 40,
+                "y": 300,
+                "wires": [
+                    {
+                        "id": "01972f34d46fe442"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 500,
+                "y": 300,
+                "wires": [
+                    {
+                        "id": "01972f34d46fe442",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "00100d268e3f4cd4",
+        "type": "subflow",
+        "name": "Beacons PPC9",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 60,
+                "y": 300,
+                "wires": [
+                    {
+                        "id": "f7583c5f086685d1"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 460,
+                "y": 220,
+                "wires": [
+                    {
+                        "id": "f7583c5f086685d1",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "475854f7263c2d8e",
+        "type": "subflow",
+        "name": "Beacons PPC7",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 80,
+                "y": 220,
+                "wires": [
+                    {
+                        "id": "3a9e5e4d88ad0d83"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 440,
+                "y": 260,
+                "wires": [
+                    {
+                        "id": "3a9e5e4d88ad0d83",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "7f5fb69ba927e731",
+        "type": "subflow",
+        "name": "Beacons PPC6",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 60,
+                "y": 160,
+                "wires": [
+                    {
+                        "id": "3ddd5d89594ff54a"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 460,
+                "y": 220,
+                "wires": [
+                    {
+                        "id": "3ddd5d89594ff54a",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "ec2985f70197f29d",
+        "type": "subflow",
+        "name": "Beacons PPC5",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 80,
+                "y": 280,
+                "wires": [
+                    {
+                        "id": "9a7dd77b52d0fd9d"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 500,
+                "y": 280,
+                "wires": [
+                    {
+                        "id": "9a7dd77b52d0fd9d",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "800f96f8ff618575",
+        "type": "subflow",
+        "name": "Beacons PPC4",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 60,
+                "y": 260,
+                "wires": [
+                    {
+                        "id": "7fea6971c0bb0c86"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 460,
+                "y": 260,
+                "wires": [
+                    {
+                        "id": "7fea6971c0bb0c86",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "b3a902e56f9128e4",
+        "type": "subflow",
+        "name": "Beacons PPC10",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 60,
+                "y": 220,
+                "wires": [
+                    {
+                        "id": "6c5e609393f1a28d"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 380,
+                "y": 200,
+                "wires": [
+                    {
+                        "id": "6c5e609393f1a28d",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "cfa13376c440df75",
+        "type": "subflow",
+        "name": "Beacons PPC3",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 40,
+                "y": 180,
+                "wires": [
+                    {
+                        "id": "d403db718c7bf559"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 380,
+                "y": 180,
+                "wires": [
+                    {
+                        "id": "d403db718c7bf559",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "2c1e50abdb5b7936",
+        "type": "subflow",
+        "name": "Beacons PPC2",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 20,
+                "y": 280,
+                "wires": [
+                    {
+                        "id": "4ea4b6e57bcf6e87"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 360,
+                "y": 280,
+                "wires": [
+                    {
+                        "id": "4ea4b6e57bcf6e87",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "ad9414eeebbc446a",
+        "type": "subflow",
+        "name": "Beacons PPC1",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 220,
+                "y": 340,
+                "wires": [
+                    {
+                        "id": "97daa44c04e99a73"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 920,
+                "y": 160,
+                "wires": [
+                    {
+                        "id": "97daa44c04e99a73",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "51bc6fe91d0818d8",
+        "type": "group",
+        "z": "3c907fa3f9f37479",
+        "name": "Consulta ao banco",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "016e5538aea00dbb",
+            "b0d31c2c8a50a8ea",
+            "2430ef3e2e44223c"
+        ],
+        "x": 34,
+        "y": 399,
+        "w": 572,
+        "h": 82
+    },
+    {
+        "id": "57927dd28acf7eb9",
+        "type": "group",
+        "z": "3c907fa3f9f37479",
+        "name": "Simulação do dispositivo de IoT",
+        "style": {
+            "stroke": "#ff0000",
+            "label": true
+        },
+        "nodes": [
+            "7be2edf6c4dcf2fc",
+            "41fd82cadd8e5a51",
+            "688b09457fc64428"
+        ],
+        "x": 34,
+        "y": 279,
+        "w": 552,
+        "h": 82
+    },
+    {
+        "id": "2c191fe67a046ca0",
+        "type": "group",
+        "z": "3c907fa3f9f37479",
+        "name": "Broker MQTT + Integração com Banco SQL",
+        "style": {
+            "stroke": "#0070c0",
+            "label": true
+        },
+        "nodes": [
+            "8e4234e731cce0b8",
+            "1a1b6af48646ff34",
+            "69f10ab6f0d6d354",
+            "a0d8290b1d13ff85",
+            "be92216b1f858a76"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 712,
+        "h": 182
+    },
+    {
+        "id": "100f8a83.e106ed",
+        "type": "group",
+        "z": "30e0cb4e.ea6f24",
+        "name": "Inject Node",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#ffff00",
+            "fill-opacity": "0.05",
+            "label": true,
+            "label-position": "sw",
+            "color": "#ff0000"
+        },
+        "nodes": [
+            "413a2cf8.988ee4",
+            "e2050e23.5985f",
+            "79a5d77.7907fa8",
+            "efdb71f1.e79438",
+            "150f7151.7291af",
+            "3c7f81f3.c7a20e",
+            "1649185f.3c8c58"
+        ],
+        "x": 194,
+        "y": 39,
+        "w": 712,
+        "h": 210
+    },
+    {
+        "id": "aa80c9053b7f7c80",
+        "type": "group",
+        "z": "7ec8e9189ea43b06",
+        "name": "Botões",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "1532ff27590913dd",
+            "a92950f6c36a0284",
+            "825bdde2919e527c",
+            "9511b74d73dcd178",
+            "2a84862e5be0f548",
+            "3f7743f39f345887",
+            "6b9d1ba94b5703bd",
+            "3d49d08eebae1683"
+        ],
+        "x": 134,
+        "y": 79,
+        "w": 712,
+        "h": 322
+    },
+    {
+        "id": "4ec2a987afbc4c6d",
+        "type": "group",
+        "z": "7ec8e9189ea43b06",
+        "name": "Dropdown",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "0ab0e0b9c33eef81",
+            "d5bfdc537ac35f60",
+            "b4bbc466b5d12ada",
+            "c71c3103c6565f0d",
+            "cfa21385c81d99a2",
+            "a0980b33163c7571",
+            "db31b6b69b29b638",
+            "7746fd8fe730c205",
+            "2ddd0b004373806f",
+            "70bfb5be6bc98531",
+            "45338ae7544fc722"
+        ],
+        "x": 134,
+        "y": 419,
+        "w": 672,
+        "h": 442
+    },
+    {
+        "id": "2322797129a8bcd7",
+        "type": "group",
+        "z": "7ec8e9189ea43b06",
+        "name": "Switch",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "8c35d39bc9b419e7",
+            "092d1c9c422c6b07",
+            "e5f25a53ebdfc5c0",
+            "714546d88c9336ca",
+            "b8de2354a1fd1c50",
+            "25c840f36efcd60a",
+            "8e82b1accfea5fd2",
+            "8683c4a474477481",
+            "26ef5e63339b456a"
+        ],
+        "x": 934,
+        "y": 499,
+        "w": 852,
+        "h": 322
+    },
+    {
+        "id": "e6bae511c75a29c9",
+        "type": "group",
+        "z": "7ec8e9189ea43b06",
+        "name": "Slider",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "779c8ae55117d4a3",
+            "dd20035ef72034c8",
+            "7350d288a830db65",
+            "86331d1965989e51",
+            "8640db2b0d9111eb",
+            "d9a1ffb998a13bbd",
+            "f2d97b0aea788f93",
+            "7bbe06adf2e8da8f",
+            "063ae82d9a75cf25"
+        ],
+        "x": 954,
+        "y": 79,
+        "w": 852,
+        "h": 382
+    },
+    {
+        "id": "cb2e80f1ce837107",
+        "type": "group",
+        "z": "7ec8e9189ea43b06",
+        "name": "Numeric",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "900c4208ea50e9d9",
+            "483234ed316a6de6",
+            "e934fa64064b585f",
+            "38dc16ac2f5fe2f4",
+            "9385ad8be4300acc",
+            "b1f1e897ab7a7bd0",
+            "62a882910b2eb703",
+            "fe5a5f1a85a7f71d",
+            "d6c1167e8c82f280"
+        ],
+        "x": 134,
+        "y": 899,
+        "w": 732,
+        "h": 362
+    },
+    {
+        "id": "7019881ba270341d",
+        "type": "group",
+        "z": "7ec8e9189ea43b06",
+        "name": "Gauges e Graficos",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "c36d984b527ff540",
+            "cc77a1f83e7f3e26",
+            "d8a4538c14c45b4c",
+            "1c2bb35e2dc503d4",
+            "de35142976872e8d",
+            "60a72346b6b3e146",
+            "9923a4380ed92e58",
+            "391528b8dad3ea53",
+            "a95add6a5a75d31f",
+            "217ece574519aa33"
+        ],
+        "x": 1034,
+        "y": 899,
+        "w": 712,
+        "h": 402
+    },
+    {
+        "id": "1bbfe8d4.b3c3c7",
+        "type": "group",
+        "z": "587f8b93.289ac4",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "93fff655.c76928",
+            "bf5809f4.529dd",
+            "80288447.cb2ec",
+            "671c2c20.4d4ce4",
+            "74d37fcc.99f2a8",
+            "5d3ce4ad.e0f324",
+            "b54a6cda.47d58"
+        ],
+        "x": 74,
+        "y": 339,
+        "w": 1052,
+        "h": 162
+    },
+    {
+        "id": "232deb88.0ae87c",
+        "type": "group",
+        "z": "587f8b93.289ac4",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "67c2837c.0e8ab4",
+            "10cbb4cd.b1cc23",
+            "8de4b741.39f6e"
+        ],
+        "x": 74,
+        "y": 239,
+        "w": 1052,
+        "h": 82
+    },
+    {
+        "id": "8b8b4e75.59605",
+        "type": "group",
+        "z": "587f8b93.289ac4",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "d9a61570.a2d3d8",
+            "27dd03d8.dcf9cc",
+            "86460837.bd883",
+            "3ba49cf7.11ecd4",
+            "6a3d5661.72dd98",
+            "a66b5946.094d58",
+            "6d2fa089.6cd65",
+            "cea18c5f.a92438",
+            "ddbad75.75672a8"
+        ],
+        "x": 74,
+        "y": 619,
+        "w": 1052,
+        "h": 242
+    },
+    {
+        "id": "9634f261.6a0508",
+        "type": "group",
+        "z": "587f8b93.289ac4",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a0e853b2.0acbc8",
+            "cd3ebfec.ad477",
+            "6dadcf57.c4e",
+            "c65a3e87.549038",
+            "ba5ead5d.0c61d8",
+            "a1bbab6.8f62b58",
+            "6f79bebe.f67168",
+            "9c6f4f5d.3e15d8"
+        ],
+        "x": 94,
+        "y": 959,
+        "w": 1052,
+        "h": 122
+    },
+    {
+        "id": "a3d4a309.c9e19",
+        "type": "group",
+        "z": "587f8b93.289ac4",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "8ab23a0.79a23c8",
+            "d1f1a509.fb3ed",
+            "ff37c9c5.1be8c",
+            "b97210e3.40bc2",
+            "a3db617e.d80858"
+        ],
+        "x": 74,
+        "y": 59,
+        "w": 1052,
+        "h": 162
+    },
+    {
+        "id": "ed6f4ee4.b9c748",
+        "type": "group",
+        "z": "587f8b93.289ac4",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "664c1010.9a2908",
+            "250f8c5b.00136c",
+            "5858c3dc.549b14"
+        ],
+        "x": 74,
+        "y": 519,
+        "w": 1052,
+        "h": 82
+    },
+    {
+        "id": "ff3a4c5bf5aa1f3d",
+        "type": "mqtt-broker",
+        "name": "SEP",
+        "broker": "192.168.1.16",
+        "port": "1885",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "5af1b730f35da383",
+        "type": "postgreSQLConfig",
+        "z": "ad9414eeebbc446a",
+        "name": "",
+        "host": "127.0.0.1",
+        "hostFieldType": "str",
+        "port": "5432",
+        "portFieldType": "num",
+        "database": "postgres",
+        "databaseFieldType": "str",
+        "ssl": "false",
+        "sslFieldType": "bool",
+        "applicationName": "",
+        "applicationNameType": "str",
+        "max": "10",
+        "maxFieldType": "num",
+        "idle": "1000",
+        "idleFieldType": "num",
+        "connectionTimeout": "10000",
+        "connectionTimeoutFieldType": "num",
+        "user": "postgres",
+        "userFieldType": "str",
+        "password": "12345",
+        "passwordFieldType": "str"
+    },
+    {
+        "id": "631cfc165ef33f3e",
+        "type": "postgreSQLConfig",
+        "z": "ad9414eeebbc446a",
+        "name": "",
+        "host": "127.0.0.1",
+        "hostFieldType": "str",
+        "port": "5432",
+        "portFieldType": "num",
+        "database": "postgres",
+        "databaseFieldType": "str",
+        "ssl": "true",
+        "sslFieldType": "bool",
+        "applicationName": "",
+        "applicationNameType": "str",
+        "max": "10",
+        "maxFieldType": "num",
+        "idle": "1000",
+        "idleFieldType": "num",
+        "connectionTimeout": "10000",
+        "connectionTimeoutFieldType": "num",
+        "user": "postgres",
+        "userFieldType": "str",
+        "password": "12345",
+        "passwordFieldType": "str"
+    },
+    {
+        "id": "38f517e2df76f71e",
+        "type": "postgreSQLConfig",
+        "name": "",
+        "host": "127.0.0.1",
+        "hostFieldType": "str",
+        "port": "5432",
+        "portFieldType": "num",
+        "database": "postgres",
+        "databaseFieldType": "str",
+        "ssl": "false",
+        "sslFieldType": "bool",
+        "applicationName": "",
+        "applicationNameType": "str",
+        "max": "10",
+        "maxFieldType": "num",
+        "idle": "1000",
+        "idleFieldType": "num",
+        "connectionTimeout": "10000",
+        "connectionTimeoutFieldType": "num",
+        "user": "postgres",
+        "userFieldType": "str",
+        "password": "12345",
+        "passwordFieldType": "str"
+    },
+    {
+        "id": "342f8fef45763279",
+        "type": "ui_group",
+        "name": "Beacons_PPC1",
+        "tab": "05c52feee92d1e8e",
+        "order": 1,
+        "disp": true,
+        "width": 7,
+        "collapse": false
+    },
+    {
+        "id": "b5f62a3f044cedba",
+        "type": "remote-config",
+        "name": "Node-RED Desk",
+        "host": "localhost",
+        "protocol": "http",
+        "port": "1880",
+        "baseurl": "/ui",
+        "instancehash": "o8fdn9mgn4ope4kucfkle7gkmbpqtyznt9v7mxxsxc1t0zaqf106nolv8pqk7zpe",
+        "server": "nodered03.remote-red.com",
+        "region": "us"
+    },
+    {
+        "id": "cbaf109daa0c31d0",
+        "type": "ui_group",
+        "name": "Beacon 1",
+        "tab": "33f804d31fa5840f",
+        "order": 1,
+        "disp": true,
+        "width": 10,
+        "collapse": false
+    },
+    {
+        "id": "2679a042cc8c121f",
+        "type": "ui_group",
+        "name": "Beacon 2",
+        "tab": "33f804d31fa5840f",
+        "order": 2,
+        "disp": true,
+        "width": 10,
+        "collapse": false
+    },
+    {
+        "id": "68538f0e237e1f9c",
+        "type": "ui_group",
+        "name": "Beacon 3",
+        "tab": "33f804d31fa5840f",
+        "order": 3,
+        "disp": true,
+        "width": 10,
+        "collapse": false
+    },
+    {
+        "id": "f0910ab1956f03b3",
+        "type": "ui_group",
+        "name": "Ajuste de Sensibilidade dos PPCs",
+        "tab": "415b833489fa7ba0",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "f74598c516e2960c",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "10.55.20.98",
+        "port": "1885",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "e32073fb1d9f690d",
+        "type": "ui_group",
+        "name": "Beacons_PPC2",
+        "tab": "05c52feee92d1e8e",
+        "order": 2,
+        "disp": true,
+        "width": 7,
+        "collapse": false
+    },
+    {
+        "id": "895d0bfa4db99432",
+        "type": "ui_group",
+        "name": "Beacons_PPC3",
+        "tab": "05c52feee92d1e8e",
+        "order": 3,
+        "disp": true,
+        "width": 7,
+        "collapse": false
+    },
+    {
+        "id": "44da5d6c1b871be4",
+        "type": "ui_group",
+        "name": "Beacons_PPC4",
+        "tab": "05c52feee92d1e8e",
+        "order": 4,
+        "disp": true,
+        "width": 7,
+        "collapse": false
+    },
+    {
+        "id": "e5932105f55780cc",
+        "type": "ui_group",
+        "name": "Beacons_PPC5",
+        "tab": "05c52feee92d1e8e",
+        "order": 5,
+        "disp": true,
+        "width": 7,
+        "collapse": false
+    },
+    {
+        "id": "a15b5ad6cbf803ab",
+        "type": "ui_group",
+        "name": "Beacons_PPC6",
+        "tab": "05c52feee92d1e8e",
+        "order": 6,
+        "disp": true,
+        "width": 7,
+        "collapse": false
+    },
+    {
+        "id": "b670da1edf9384e8",
+        "type": "ui_group",
+        "name": "Beacons_PPC7",
+        "tab": "05c52feee92d1e8e",
+        "order": 7,
+        "disp": true,
+        "width": 7,
+        "collapse": false
+    },
+    {
+        "id": "0cc2de24866568ba",
+        "type": "ui_group",
+        "name": "Beacons_PPC8",
+        "tab": "05c52feee92d1e8e",
+        "order": 8,
+        "disp": true,
+        "width": 7,
+        "collapse": false
+    },
+    {
+        "id": "a5c3542091b65b07",
+        "type": "ui_group",
+        "name": "Beacons_PPC9",
+        "tab": "05c52feee92d1e8e",
+        "order": 9,
+        "disp": true,
+        "width": 7,
+        "collapse": false
+    },
+    {
+        "id": "3dd0e3e5b64786b3",
+        "type": "ui_group",
+        "name": "Beacons_PPC10",
+        "tab": "05c52feee92d1e8e",
+        "order": 10,
+        "disp": true,
+        "width": 7,
+        "collapse": false
+    },
+    {
+        "id": "05c52feee92d1e8e",
+        "type": "ui_tab",
+        "name": "Gauges e Beacons",
+        "icon": "track_changes",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "33f804d31fa5840f",
+        "type": "ui_tab",
+        "name": "Tracking",
+        "icon": "fa-map-marker",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "415b833489fa7ba0",
+        "type": "ui_tab",
+        "name": "Configurações",
+        "icon": "fa-cog",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7688a2166419ce99",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "66babd430c5394a7",
+        "type": "postgreSQLConfig",
+        "name": "sep",
+        "host": "localhost",
+        "hostFieldType": "str",
+        "port": "5432",
+        "portFieldType": "num",
+        "database": "postgres",
+        "databaseFieldType": "str",
+        "ssl": "true",
+        "sslFieldType": "bool",
+        "applicationName": "",
+        "applicationNameType": "str",
+        "max": "10",
+        "maxFieldType": "num",
+        "idle": "1000",
+        "idleFieldType": "num",
+        "connectionTimeout": "10000",
+        "connectionTimeoutFieldType": "num",
+        "user": "postgres",
+        "userFieldType": "str",
+        "password": "12345",
+        "passwordFieldType": "str"
+    },
+    {
+        "id": "58cfe1dc1c249e49",
+        "type": "ui_spacer",
+        "z": "7ec8e9189ea43b06",
+        "name": "spacer",
+        "group": "5ea88c38bf17e99a",
+        "order": 2,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "258e81d8e70e3910",
+        "type": "ui_group",
+        "name": "Botoes",
+        "tab": "cba1bc67e35e3839",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "c7435f899674ef1c",
+        "type": "ui_group",
+        "name": "Config",
+        "tab": "cba1bc67e35e3839",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "b962a601131ffc1b",
+        "type": "ui_group",
+        "name": "Ação",
+        "tab": "64a5cf243e937b80",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "81764e141d9410ad",
+        "type": "ui_group",
+        "name": "Config",
+        "tab": "64a5cf243e937b80",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "1e68cfd4ce66f0ca",
+        "type": "ui_group",
+        "name": "Ação",
+        "tab": "66335acb475111ef",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "e1f333ed378d2728",
+        "type": "ui_group",
+        "name": "Config",
+        "tab": "66335acb475111ef",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "d2e83866d6bb4384",
+        "type": "ui_group",
+        "name": "Ação",
+        "tab": "a6d5e48423013aea",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "bd31eb617d3349d0",
+        "type": "ui_group",
+        "name": "Config",
+        "tab": "a6d5e48423013aea",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "fcbda89011690118",
+        "type": "ui_group",
+        "name": "Ação",
+        "tab": "5421646333419e2a",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "84f0fb67efceb6c8",
+        "type": "ui_group",
+        "name": "Config",
+        "tab": "5421646333419e2a",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "5ea88c38bf17e99a",
+        "type": "ui_group",
+        "name": "Gauges",
+        "tab": "e86d7c2a5d03c70d",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false
+    },
+    {
+        "id": "ab9c9aa15be24a68",
+        "type": "ui_group",
+        "name": "Charts",
+        "tab": "e86d7c2a5d03c70d",
+        "order": 2,
+        "disp": true,
+        "width": 10,
+        "collapse": false
+    },
+    {
+        "id": "80ba02adb15f48cd",
+        "type": "ui_group",
+        "name": "Configs",
+        "tab": "e86d7c2a5d03c70d",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "cba1bc67e35e3839",
+        "type": "ui_tab",
+        "name": "Botoes",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "64a5cf243e937b80",
+        "type": "ui_tab",
+        "name": "Dropdown",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "66335acb475111ef",
+        "type": "ui_tab",
+        "name": "Switch",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "a6d5e48423013aea",
+        "type": "ui_tab",
+        "name": "Slider",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "5421646333419e2a",
+        "type": "ui_tab",
+        "name": "Numeric",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e86d7c2a5d03c70d",
+        "type": "ui_tab",
+        "name": "Gauge & Line Chart",
+        "icon": "dashboard",
+        "order": 6,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "74b2fd2c5ffb39a3",
+        "type": "function",
+        "z": "bd775e9c70c5b9e8",
+        "name": "Estruturacao do Payload",
+        "func": "let mac_address = msg.payload.id.replace(/:/g, '').toUpperCase();\nlet rssi = msg.payload.rssi;\n\n//msg.topic = \"SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\";\nmsg.params = [mac_address];\n\n\nmsg.originalPayload = {\n    mac_address: mac_address,\n    rssi: rssi,\n    ppc: 23,  // Define o valor de ppc conforme necessário\n    time_stamp:new Date(new Date().getTime()).toISOString()  // Adjust for local time\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 280,
+        "wires": [
+            [
+                "80ad48e35e65d996"
+            ]
+        ]
+    },
+    {
+        "id": "80ad48e35e65d996",
+        "type": "postgresql",
+        "z": "bd775e9c70c5b9e8",
+        "name": "Query de leitura do mac",
+        "query": "SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\n",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 570,
+        "y": 280,
+        "wires": [
+            [
+                "29455931ffe9b7d7"
+            ]
+        ]
+    },
+    {
+        "id": "29455931ffe9b7d7",
+        "type": "function",
+        "z": "bd775e9c70c5b9e8",
+        "name": "Tratamento pre-insercao",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    let id_beacon = msg.payload[0].id_beacon;\n    let name = msg.payload[0].name;\n    let originalPayload = msg.originalPayload;\n\n\n    //msg.topic = \"INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, nome, ppc, \\\"timestamp\\\") VALUES ($1, $2, $3, $4, $5)\";\n    msg.params = [id_beacon, originalPayload.mac_address, name, originalPayload.ppc,originalPayload.rssi, originalPayload.time_stamp];\n    return msg;\n} else {\n    // Caso não encontre o mac_address\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 280,
+        "wires": [
+            [
+                "5388d51eea0c369f"
+            ]
+        ]
+    },
+    {
+        "id": "5388d51eea0c369f",
+        "type": "postgresql",
+        "z": "bd775e9c70c5b9e8",
+        "name": "Insercao dos dados",
+        "query": "INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, name, ppc,rssi, time_stamp) VALUES ($1, $2, $3, $4, $5,$6)",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1070,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0231a9481cc6d57c",
+        "type": "function",
+        "z": "ce73c0daf68d2150",
+        "name": "Estruturacao do Payload",
+        "func": "let mac_address = msg.payload.id.replace(/:/g, '').toUpperCase();\nlet rssi = msg.payload.rssi;\n\n//msg.topic = \"SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\";\nmsg.params = [mac_address];\n\n\nmsg.originalPayload = {\n    mac_address: mac_address,\n    rssi: rssi,\n    ppc: 22,  // Define o valor de ppc conforme necessário\n    time_stamp:new Date(new Date().getTime()).toISOString()  // Adjust for local time\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 280,
+        "wires": [
+            [
+                "744fdc70bc5badda"
+            ]
+        ]
+    },
+    {
+        "id": "744fdc70bc5badda",
+        "type": "postgresql",
+        "z": "ce73c0daf68d2150",
+        "name": "Query de leitura do mac",
+        "query": "SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\n",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 630,
+        "y": 280,
+        "wires": [
+            [
+                "f02d7bb56d5d60af"
+            ]
+        ]
+    },
+    {
+        "id": "f02d7bb56d5d60af",
+        "type": "function",
+        "z": "ce73c0daf68d2150",
+        "name": "Tratamento pre-insercao",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    let id_beacon = msg.payload[0].id_beacon;\n    let name = msg.payload[0].name;\n    let originalPayload = msg.originalPayload;\n\n\n    //msg.topic = \"INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, nome, ppc, \\\"timestamp\\\") VALUES ($1, $2, $3, $4, $5)\";\n    msg.params = [id_beacon, originalPayload.mac_address, name, originalPayload.ppc,originalPayload.rssi, originalPayload.time_stamp];\n    return msg;\n} else {\n    // Caso não encontre o mac_address\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 280,
+        "wires": [
+            [
+                "a4a68654b68d7a35"
+            ]
+        ]
+    },
+    {
+        "id": "a4a68654b68d7a35",
+        "type": "postgresql",
+        "z": "ce73c0daf68d2150",
+        "name": "Insercao dos dados",
+        "query": "INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, name, ppc,rssi, time_stamp) VALUES ($1, $2, $3, $4, $5,$6)",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1130,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "645ff113fbebfbca",
+        "type": "function",
+        "z": "686c9516b571d587",
+        "name": "Estruturacao do Payload",
+        "func": "let mac_address = msg.payload.id.replace(/:/g, '').toUpperCase();\nlet rssi = msg.payload.rssi;\n\n//msg.topic = \"SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\";\nmsg.params = [mac_address];\n\n\nmsg.originalPayload = {\n    mac_address: mac_address,\n    rssi: rssi,\n    ppc: 21,  // Define o valor de ppc conforme necessário\n    time_stamp:new Date(new Date().getTime()).toISOString()  // Adjust for local time\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 280,
+        "wires": [
+            [
+                "37844fc589b7854c"
+            ]
+        ]
+    },
+    {
+        "id": "37844fc589b7854c",
+        "type": "postgresql",
+        "z": "686c9516b571d587",
+        "name": "Query de leitura do mac",
+        "query": "SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\n",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 610,
+        "y": 280,
+        "wires": [
+            [
+                "00870f52277589c5"
+            ]
+        ]
+    },
+    {
+        "id": "00870f52277589c5",
+        "type": "function",
+        "z": "686c9516b571d587",
+        "name": "Tratamento pre-insercao",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    let id_beacon = msg.payload[0].id_beacon;\n    let name = msg.payload[0].name;\n    let originalPayload = msg.originalPayload;\n\n\n    //msg.topic = \"INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, nome, ppc, \\\"timestamp\\\") VALUES ($1, $2, $3, $4, $5)\";\n    msg.params = [id_beacon, originalPayload.mac_address, name, originalPayload.ppc,originalPayload.rssi, originalPayload.time_stamp];\n    return msg;\n} else {\n    // Caso não encontre o mac_address\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 280,
+        "wires": [
+            [
+                "29b1c418e15e50c3"
+            ]
+        ]
+    },
+    {
+        "id": "29b1c418e15e50c3",
+        "type": "postgresql",
+        "z": "686c9516b571d587",
+        "name": "Insercao dos dados",
+        "query": "INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, name, ppc,rssi, time_stamp) VALUES ($1, $2, $3, $4, $5,$6)",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1110,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c7f7ab4d5fe473b7",
+        "type": "function",
+        "z": "5113a8025215240c",
+        "name": "Estruturacao do Payload",
+        "func": "let mac_address = msg.payload.id.replace(/:/g, '').toUpperCase();\nlet rssi = msg.payload.rssi;\n\n//msg.topic = \"SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\";\nmsg.params = [mac_address];\n\n\nmsg.originalPayload = {\n    mac_address: mac_address,\n    rssi: rssi,\n    ppc: 20,  // Define o valor de ppc conforme necessário\n    time_stamp:new Date(new Date().getTime()).toISOString()  // Adjust for local time\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 280,
+        "wires": [
+            [
+                "a86a2a30d985fef2"
+            ]
+        ]
+    },
+    {
+        "id": "a86a2a30d985fef2",
+        "type": "postgresql",
+        "z": "5113a8025215240c",
+        "name": "Query de leitura do mac",
+        "query": "SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\n",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 610,
+        "y": 280,
+        "wires": [
+            [
+                "542541fb94a6b3dd"
+            ]
+        ]
+    },
+    {
+        "id": "542541fb94a6b3dd",
+        "type": "function",
+        "z": "5113a8025215240c",
+        "name": "Tratamento pre-insercao",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    let id_beacon = msg.payload[0].id_beacon;\n    let name = msg.payload[0].name;\n    let originalPayload = msg.originalPayload;\n\n\n    //msg.topic = \"INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, nome, ppc, \\\"timestamp\\\") VALUES ($1, $2, $3, $4, $5)\";\n    msg.params = [id_beacon, originalPayload.mac_address, name, originalPayload.ppc,originalPayload.rssi, originalPayload.time_stamp];\n    return msg;\n} else {\n    // Caso não encontre o mac_address\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 280,
+        "wires": [
+            [
+                "a912fcbc829c58b6"
+            ]
+        ]
+    },
+    {
+        "id": "a912fcbc829c58b6",
+        "type": "postgresql",
+        "z": "5113a8025215240c",
+        "name": "Insercao dos dados",
+        "query": "INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, name, ppc,rssi, time_stamp) VALUES ($1, $2, $3, $4, $5,$6)",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1110,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "70f6de3d445bb249",
+        "type": "function",
+        "z": "4174facdb1dddf54",
+        "name": "Estruturacao do Payload",
+        "func": "let mac_address = msg.payload.id.replace(/:/g, '').toUpperCase();\nlet rssi = msg.payload.rssi;\n\n//msg.topic = \"SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\";\nmsg.params = [mac_address];\n\n\nmsg.originalPayload = {\n    mac_address: mac_address,\n    rssi: rssi,\n    ppc: 19,  // Define o valor de ppc conforme necessário\n    time_stamp:new Date(new Date().getTime()).toISOString()  // Adjust for local time\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 280,
+        "wires": [
+            [
+                "b8d68f1b854a6d46"
+            ]
+        ]
+    },
+    {
+        "id": "b8d68f1b854a6d46",
+        "type": "postgresql",
+        "z": "4174facdb1dddf54",
+        "name": "Query de leitura do mac",
+        "query": "SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\n",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 610,
+        "y": 280,
+        "wires": [
+            [
+                "c9f41d79e8c59c9f"
+            ]
+        ]
+    },
+    {
+        "id": "c9f41d79e8c59c9f",
+        "type": "function",
+        "z": "4174facdb1dddf54",
+        "name": "Tratamento pre-insercao",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    let id_beacon = msg.payload[0].id_beacon;\n    let name = msg.payload[0].name;\n    let originalPayload = msg.originalPayload;\n\n\n    //msg.topic = \"INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, nome, ppc, \\\"timestamp\\\") VALUES ($1, $2, $3, $4, $5)\";\n    msg.params = [id_beacon, originalPayload.mac_address, name, originalPayload.ppc,originalPayload.rssi, originalPayload.time_stamp];\n    return msg;\n} else {\n    // Caso não encontre o mac_address\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 280,
+        "wires": [
+            [
+                "3659d043694b83ad"
+            ]
+        ]
+    },
+    {
+        "id": "3659d043694b83ad",
+        "type": "postgresql",
+        "z": "4174facdb1dddf54",
+        "name": "Insercao dos dados",
+        "query": "INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, name, ppc,rssi, time_stamp) VALUES ($1, $2, $3, $4, $5,$6)",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1110,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "51afdc989f8d2b2a",
+        "type": "function",
+        "z": "03b9b5a0e694efd7",
+        "name": "Estruturacao do Payload",
+        "func": "let mac_address = msg.payload.id.replace(/:/g, '').toUpperCase();\nlet rssi = msg.payload.rssi;\n\n//msg.topic = \"SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\";\nmsg.params = [mac_address];\n\n\nmsg.originalPayload = {\n    mac_address: mac_address,\n    rssi: rssi,\n    ppc: 18,  // Define o valor de ppc conforme necessário\n    time_stamp:new Date(new Date().getTime()).toISOString()  // Adjust for local time\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 260,
+        "wires": [
+            [
+                "5a374d9003ce429f"
+            ]
+        ]
+    },
+    {
+        "id": "5a374d9003ce429f",
+        "type": "postgresql",
+        "z": "03b9b5a0e694efd7",
+        "name": "Query de leitura do mac",
+        "query": "SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\n",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 590,
+        "y": 260,
+        "wires": [
+            [
+                "20357408bfe21c85"
+            ]
+        ]
+    },
+    {
+        "id": "20357408bfe21c85",
+        "type": "function",
+        "z": "03b9b5a0e694efd7",
+        "name": "Tratamento pre-insercao",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    let id_beacon = msg.payload[0].id_beacon;\n    let name = msg.payload[0].name;\n    let originalPayload = msg.originalPayload;\n\n\n    //msg.topic = \"INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, nome, ppc, \\\"timestamp\\\") VALUES ($1, $2, $3, $4, $5)\";\n    msg.params = [id_beacon, originalPayload.mac_address, name, originalPayload.ppc,originalPayload.rssi, originalPayload.time_stamp];\n    return msg;\n} else {\n    // Caso não encontre o mac_address\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 260,
+        "wires": [
+            [
+                "cd14181e4ffe7ca9"
+            ]
+        ]
+    },
+    {
+        "id": "cd14181e4ffe7ca9",
+        "type": "postgresql",
+        "z": "03b9b5a0e694efd7",
+        "name": "Insercao dos dados",
+        "query": "INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, name, ppc,rssi, time_stamp) VALUES ($1, $2, $3, $4, $5,$6)",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1090,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e1b8871012266da2",
+        "type": "function",
+        "z": "452233a513142a17",
+        "name": "Estruturacao do Payload",
+        "func": "let mac_address = msg.payload.id.replace(/:/g, '').toUpperCase();\nlet rssi = msg.payload.rssi;\n\n//msg.topic = \"SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\";\nmsg.params = [mac_address];\n\n\nmsg.originalPayload = {\n    mac_address: mac_address,\n    rssi: rssi,\n    ppc: 17,  // Define o valor de ppc conforme necessário\n    time_stamp:new Date(new Date().getTime()).toISOString()  // Adjust for local time\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 210,
+        "y": 220,
+        "wires": [
+            [
+                "453920a7c7ff550f"
+            ]
+        ]
+    },
+    {
+        "id": "453920a7c7ff550f",
+        "type": "postgresql",
+        "z": "452233a513142a17",
+        "name": "Query de leitura do mac",
+        "query": "SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\n",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 530,
+        "y": 220,
+        "wires": [
+            [
+                "5134c7326391c5d8"
+            ]
+        ]
+    },
+    {
+        "id": "5134c7326391c5d8",
+        "type": "function",
+        "z": "452233a513142a17",
+        "name": "Tratamento pre-insercao",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    let id_beacon = msg.payload[0].id_beacon;\n    let name = msg.payload[0].name;\n    let originalPayload = msg.originalPayload;\n\n\n    //msg.topic = \"INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, nome, ppc, \\\"timestamp\\\") VALUES ($1, $2, $3, $4, $5)\";\n    msg.params = [id_beacon, originalPayload.mac_address, name, originalPayload.ppc,originalPayload.rssi, originalPayload.time_stamp];\n    return msg;\n} else {\n    // Caso não encontre o mac_address\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 220,
+        "wires": [
+            [
+                "e48ef670138f7b58"
+            ]
+        ]
+    },
+    {
+        "id": "e48ef670138f7b58",
+        "type": "postgresql",
+        "z": "452233a513142a17",
+        "name": "Insercao dos dados",
+        "query": "INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, name, ppc,rssi, time_stamp) VALUES ($1, $2, $3, $4, $5,$6)",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1030,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "205299fac3764483",
+        "type": "function",
+        "z": "ae3abf3458e4e272",
+        "name": "Estruturacao do Payload",
+        "func": "let mac_address = msg.payload.id.replace(/:/g, '').toUpperCase();\nlet rssi = msg.payload.rssi;\n\n//msg.topic = \"SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\";\nmsg.params = [mac_address];\n\n\nmsg.originalPayload = {\n    mac_address: mac_address,\n    rssi: rssi,\n    ppc: 16,  // Define o valor de ppc conforme necessário\n    time_stamp:new Date(new Date().getTime()).toISOString()  // Adjust for local time\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 210,
+        "y": 240,
+        "wires": [
+            [
+                "38c132df6fd8ad57"
+            ]
+        ]
+    },
+    {
+        "id": "38c132df6fd8ad57",
+        "type": "postgresql",
+        "z": "ae3abf3458e4e272",
+        "name": "Query de leitura do mac",
+        "query": "SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\n",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 530,
+        "y": 240,
+        "wires": [
+            [
+                "2cf7f271c494ed4c"
+            ]
+        ]
+    },
+    {
+        "id": "2cf7f271c494ed4c",
+        "type": "function",
+        "z": "ae3abf3458e4e272",
+        "name": "Tratamento pre-insercao",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    let id_beacon = msg.payload[0].id_beacon;\n    let name = msg.payload[0].name;\n    let originalPayload = msg.originalPayload;\n\n\n    //msg.topic = \"INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, nome, ppc, \\\"timestamp\\\") VALUES ($1, $2, $3, $4, $5)\";\n    msg.params = [id_beacon, originalPayload.mac_address, name, originalPayload.ppc,originalPayload.rssi, originalPayload.time_stamp];\n    return msg;\n} else {\n    // Caso não encontre o mac_address\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 240,
+        "wires": [
+            [
+                "96793c76f3e47bc1"
+            ]
+        ]
+    },
+    {
+        "id": "96793c76f3e47bc1",
+        "type": "postgresql",
+        "z": "ae3abf3458e4e272",
+        "name": "Insercao dos dados",
+        "query": "INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, name, ppc,rssi, time_stamp) VALUES ($1, $2, $3, $4, $5,$6)",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1030,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8e171aa1dd89e6c5",
+        "type": "function",
+        "z": "276e0fe8eb461e8c",
+        "name": "Estruturacao do Payload",
+        "func": "let mac_address = msg.payload.id.replace(/:/g, '').toUpperCase();\nlet rssi = msg.payload.rssi;\n\n//msg.topic = \"SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\";\nmsg.params = [mac_address];\n\n\nmsg.originalPayload = {\n    mac_address: mac_address,\n    rssi: rssi,\n    ppc: 15,  // Define o valor de ppc conforme necessário\n    time_stamp:new Date(new Date().getTime()).toISOString()  // Adjust for local time\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 260,
+        "wires": [
+            [
+                "4758bc626b878a7b"
+            ]
+        ]
+    },
+    {
+        "id": "4758bc626b878a7b",
+        "type": "postgresql",
+        "z": "276e0fe8eb461e8c",
+        "name": "Query de leitura do mac",
+        "query": "SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\n",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 570,
+        "y": 260,
+        "wires": [
+            [
+                "ce77963004e34c58"
+            ]
+        ]
+    },
+    {
+        "id": "ce77963004e34c58",
+        "type": "function",
+        "z": "276e0fe8eb461e8c",
+        "name": "Tratamento pre-insercao",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    let id_beacon = msg.payload[0].id_beacon;\n    let name = msg.payload[0].name;\n    let originalPayload = msg.originalPayload;\n\n\n    //msg.topic = \"INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, nome, ppc, \\\"timestamp\\\") VALUES ($1, $2, $3, $4, $5)\";\n    msg.params = [id_beacon, originalPayload.mac_address, name, originalPayload.ppc,originalPayload.rssi, originalPayload.time_stamp];\n    return msg;\n} else {\n    // Caso não encontre o mac_address\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 260,
+        "wires": [
+            [
+                "d4f158ddb1cdd4dc"
+            ]
+        ]
+    },
+    {
+        "id": "d4f158ddb1cdd4dc",
+        "type": "postgresql",
+        "z": "276e0fe8eb461e8c",
+        "name": "Insercao dos dados",
+        "query": "INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, name, ppc,rssi, time_stamp) VALUES ($1, $2, $3, $4, $5,$6)",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1070,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b367b2c759c5a633",
+        "type": "function",
+        "z": "f91d4c189c867201",
+        "name": "Estruturacao do Payload",
+        "func": "let mac_address = msg.payload.id.replace(/:/g, '').toUpperCase();\nlet rssi = msg.payload.rssi;\n\n//msg.topic = \"SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\";\nmsg.params = [mac_address];\n\n\nmsg.originalPayload = {\n    mac_address: mac_address,\n    rssi: rssi,\n    ppc: 13,  // Define o valor de ppc conforme necessário\n    time_stamp:new Date(new Date().getTime()).toISOString()  // Adjust for local time\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 300,
+        "wires": [
+            [
+                "b99efb122ae296a1"
+            ]
+        ]
+    },
+    {
+        "id": "b99efb122ae296a1",
+        "type": "postgresql",
+        "z": "f91d4c189c867201",
+        "name": "Query de leitura do mac",
+        "query": "SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\n",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 570,
+        "y": 300,
+        "wires": [
+            [
+                "2c8ed233a9f9a3ad"
+            ]
+        ]
+    },
+    {
+        "id": "2c8ed233a9f9a3ad",
+        "type": "function",
+        "z": "f91d4c189c867201",
+        "name": "Tratamento pre-insercao",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    let id_beacon = msg.payload[0].id_beacon;\n    let name = msg.payload[0].name;\n    let originalPayload = msg.originalPayload;\n\n\n    //msg.topic = \"INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, nome, ppc, \\\"timestamp\\\") VALUES ($1, $2, $3, $4, $5)\";\n    msg.params = [id_beacon, originalPayload.mac_address, name, originalPayload.ppc,originalPayload.rssi, originalPayload.time_stamp];\n    return msg;\n} else {\n    // Caso não encontre o mac_address\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 300,
+        "wires": [
+            [
+                "bc103ff5acd8f2cb"
+            ]
+        ]
+    },
+    {
+        "id": "bc103ff5acd8f2cb",
+        "type": "postgresql",
+        "z": "f91d4c189c867201",
+        "name": "Insercao dos dados",
+        "query": "INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, name, ppc,rssi, time_stamp) VALUES ($1, $2, $3, $4, $5,$6)",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1070,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "60743cf64a38b8dd",
+        "type": "function",
+        "z": "799e4fb6774b8638",
+        "name": "Estruturacao do Payload",
+        "func": "let mac_address = msg.payload.id.replace(/:/g, '').toUpperCase();\nlet rssi = msg.payload.rssi;\n\n//msg.topic = \"SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\";\nmsg.params = [mac_address];\n\n\nmsg.originalPayload = {\n    mac_address: mac_address,\n    rssi: rssi,\n    ppc: 12,  // Define o valor de ppc conforme necessário\n    time_stamp:new Date(new Date().getTime()).toISOString()  // Adjust for local time\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 280,
+        "wires": [
+            [
+                "82812a99bd57a1bd"
+            ]
+        ]
+    },
+    {
+        "id": "82812a99bd57a1bd",
+        "type": "postgresql",
+        "z": "799e4fb6774b8638",
+        "name": "Query de leitura do mac",
+        "query": "SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\n",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 630,
+        "y": 280,
+        "wires": [
+            [
+                "e68be7fa9a558d7e"
+            ]
+        ]
+    },
+    {
+        "id": "e68be7fa9a558d7e",
+        "type": "function",
+        "z": "799e4fb6774b8638",
+        "name": "Tratamento pre-insercao",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    let id_beacon = msg.payload[0].id_beacon;\n    let name = msg.payload[0].name;\n    let originalPayload = msg.originalPayload;\n\n\n    //msg.topic = \"INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, nome, ppc, \\\"timestamp\\\") VALUES ($1, $2, $3, $4, $5)\";\n    msg.params = [id_beacon, originalPayload.mac_address, name, originalPayload.ppc,originalPayload.rssi, originalPayload.time_stamp];\n    return msg;\n} else {\n    // Caso não encontre o mac_address\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 280,
+        "wires": [
+            [
+                "b31791e7318be5e1"
+            ]
+        ]
+    },
+    {
+        "id": "b31791e7318be5e1",
+        "type": "postgresql",
+        "z": "799e4fb6774b8638",
+        "name": "Insercao dos dados",
+        "query": "INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, name, ppc,rssi, time_stamp) VALUES ($1, $2, $3, $4, $5,$6)",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1130,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b78be0f21e92dc2b",
+        "type": "function",
+        "z": "fc41924807ae481f",
+        "name": "Estruturacao do Payload",
+        "func": "let mac_address = msg.payload.id.replace(/:/g, '').toUpperCase();\nlet rssi = msg.payload.rssi;\n\n//msg.topic = \"SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\";\nmsg.params = [mac_address];\n\n\nmsg.originalPayload = {\n    mac_address: mac_address,\n    rssi: rssi,\n    ppc: 11,  // Define o valor de ppc conforme necessário\n    time_stamp:new Date(new Date().getTime()).toISOString()  // Adjust for local time\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 260,
+        "wires": [
+            [
+                "8517194ea054ae84"
+            ]
+        ]
+    },
+    {
+        "id": "8517194ea054ae84",
+        "type": "postgresql",
+        "z": "fc41924807ae481f",
+        "name": "Query de leitura do mac",
+        "query": "SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\n",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 670,
+        "y": 260,
+        "wires": [
+            [
+                "5274fd0fe84101c3"
+            ]
+        ]
+    },
+    {
+        "id": "5274fd0fe84101c3",
+        "type": "function",
+        "z": "fc41924807ae481f",
+        "name": "Tratamento pre-insercao",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    let id_beacon = msg.payload[0].id_beacon;\n    let name = msg.payload[0].name;\n    let originalPayload = msg.originalPayload;\n\n\n    //msg.topic = \"INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, nome, ppc, \\\"timestamp\\\") VALUES ($1, $2, $3, $4, $5)\";\n    msg.params = [id_beacon, originalPayload.mac_address, name, originalPayload.ppc,originalPayload.rssi, originalPayload.time_stamp];\n    return msg;\n} else {\n    // Caso não encontre o mac_address\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 260,
+        "wires": [
+            [
+                "87cf4232e15e1c1e"
+            ]
+        ]
+    },
+    {
+        "id": "87cf4232e15e1c1e",
+        "type": "postgresql",
+        "z": "fc41924807ae481f",
+        "name": "Insercao dos dados",
+        "query": "INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, name, ppc,rssi, time_stamp) VALUES ($1, $2, $3, $4, $5,$6)",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1170,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "01972f34d46fe442",
+        "type": "function",
+        "z": "a64a9ee1b173a97d",
+        "name": "Estruturacao do Payload",
+        "func": "let mac_address = msg.payload.id.replace(/:/g, '').toUpperCase();\nlet rssi = msg.payload.rssi;\n\n//msg.topic = \"SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\";\nmsg.params = [mac_address];\n\n\nmsg.originalPayload = {\n    mac_address: mac_address,\n    rssi: rssi,\n    ppc: 8,  // Define o valor de ppc conforme necessário\n    time_stamp:new Date(new Date().getTime()).toISOString()  // Adjust for local time\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 400,
+        "wires": [
+            [
+                "a72b654628a11dfd"
+            ]
+        ]
+    },
+    {
+        "id": "a72b654628a11dfd",
+        "type": "postgresql",
+        "z": "a64a9ee1b173a97d",
+        "name": "Query de leitura do mac",
+        "query": "SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\n",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 570,
+        "y": 400,
+        "wires": [
+            [
+                "c28ac2e5f5146a60"
+            ]
+        ]
+    },
+    {
+        "id": "c28ac2e5f5146a60",
+        "type": "function",
+        "z": "a64a9ee1b173a97d",
+        "name": "Tratamento pre-insercao",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    let id_beacon = msg.payload[0].id_beacon;\n    let name = msg.payload[0].name;\n    let originalPayload = msg.originalPayload;\n\n\n    //msg.topic = \"INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, nome, ppc, \\\"timestamp\\\") VALUES ($1, $2, $3, $4, $5)\";\n    msg.params = [id_beacon, originalPayload.mac_address, name, originalPayload.ppc,originalPayload.rssi, originalPayload.time_stamp];\n    return msg;\n} else {\n    // Caso não encontre o mac_address\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 400,
+        "wires": [
+            [
+                "ff3aa151f03eb6ab"
+            ]
+        ]
+    },
+    {
+        "id": "ff3aa151f03eb6ab",
+        "type": "postgresql",
+        "z": "a64a9ee1b173a97d",
+        "name": "Insercao dos dados",
+        "query": "INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, name, ppc,rssi, time_stamp) VALUES ($1, $2, $3, $4, $5,$6)",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1070,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f7583c5f086685d1",
+        "type": "function",
+        "z": "00100d268e3f4cd4",
+        "name": "Estruturacao do Payload",
+        "func": "let mac_address = msg.payload.id.replace(/:/g, '').toUpperCase();\nlet rssi = msg.payload.rssi;\n\n//msg.topic = \"SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\";\nmsg.params = [mac_address];\n\n\nmsg.originalPayload = {\n    mac_address: mac_address,\n    rssi: rssi,\n    ppc: 9,  // Define o valor de ppc conforme necessário\n    time_stamp:new Date(new Date().getTime()).toISOString()  // Adjust for local time\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 360,
+        "wires": [
+            [
+                "f7fde0dc6b3d7cf2"
+            ]
+        ]
+    },
+    {
+        "id": "f7fde0dc6b3d7cf2",
+        "type": "postgresql",
+        "z": "00100d268e3f4cd4",
+        "name": "Query de leitura do mac",
+        "query": "SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\n",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 570,
+        "y": 360,
+        "wires": [
+            [
+                "8df80f0da7ec146e"
+            ]
+        ]
+    },
+    {
+        "id": "8df80f0da7ec146e",
+        "type": "function",
+        "z": "00100d268e3f4cd4",
+        "name": "Tratamento pre-insercao",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    let id_beacon = msg.payload[0].id_beacon;\n    let name = msg.payload[0].name;\n    let originalPayload = msg.originalPayload;\n\n\n    //msg.topic = \"INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, nome, ppc, \\\"timestamp\\\") VALUES ($1, $2, $3, $4, $5)\";\n    msg.params = [id_beacon, originalPayload.mac_address, name, originalPayload.ppc,originalPayload.rssi, originalPayload.time_stamp];\n    return msg;\n} else {\n    // Caso não encontre o mac_address\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 360,
+        "wires": [
+            [
+                "69d5f834b3d61c73"
+            ]
+        ]
+    },
+    {
+        "id": "69d5f834b3d61c73",
+        "type": "postgresql",
+        "z": "00100d268e3f4cd4",
+        "name": "Insercao dos dados",
+        "query": "INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, name, ppc,rssi, time_stamp) VALUES ($1, $2, $3, $4, $5,$6)",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1070,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3a9e5e4d88ad0d83",
+        "type": "function",
+        "z": "475854f7263c2d8e",
+        "name": "Estruturacao do Payload",
+        "func": "let mac_address = msg.payload.id.replace(/:/g, '').toUpperCase();\nlet rssi = msg.payload.rssi;\n\n//msg.topic = \"SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\";\nmsg.params = [mac_address];\n\n\nmsg.originalPayload = {\n    mac_address: mac_address,\n    rssi: rssi,\n    ppc: 7,  // Define o valor de ppc conforme necessário\n    time_stamp:new Date(new Date().getTime()).toISOString()  // Adjust for local time\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 360,
+        "wires": [
+            [
+                "1c74cf43e159a381"
+            ]
+        ]
+    },
+    {
+        "id": "1c74cf43e159a381",
+        "type": "postgresql",
+        "z": "475854f7263c2d8e",
+        "name": "Query de leitura do mac",
+        "query": "SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\n",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 550,
+        "y": 360,
+        "wires": [
+            [
+                "9363b4dab76fb1a4"
+            ]
+        ]
+    },
+    {
+        "id": "9363b4dab76fb1a4",
+        "type": "function",
+        "z": "475854f7263c2d8e",
+        "name": "Tratamento pre-insercao",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    let id_beacon = msg.payload[0].id_beacon;\n    let name = msg.payload[0].name;\n    let originalPayload = msg.originalPayload;\n\n\n    //msg.topic = \"INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, nome, ppc, \\\"timestamp\\\") VALUES ($1, $2, $3, $4, $5)\";\n    msg.params = [id_beacon, originalPayload.mac_address, name, originalPayload.ppc,originalPayload.rssi, originalPayload.time_stamp];\n    return msg;\n} else {\n    // Caso não encontre o mac_address\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 360,
+        "wires": [
+            [
+                "dcd9f32a3cfba22b"
+            ]
+        ]
+    },
+    {
+        "id": "dcd9f32a3cfba22b",
+        "type": "postgresql",
+        "z": "475854f7263c2d8e",
+        "name": "Insercao dos dados",
+        "query": "INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, name, ppc,rssi, time_stamp) VALUES ($1, $2, $3, $4, $5,$6)",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1050,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3ddd5d89594ff54a",
+        "type": "function",
+        "z": "7f5fb69ba927e731",
+        "name": "Estruturacao do Payload",
+        "func": "let mac_address = msg.payload.id.replace(/:/g, '').toUpperCase();\nlet rssi = msg.payload.rssi;\n\n//msg.topic = \"SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\";\nmsg.params = [mac_address];\n\n\nmsg.originalPayload = {\n    mac_address: mac_address,\n    rssi: rssi,\n    ppc: 6,  // Define o valor de ppc conforme necessário\n    time_stamp:new Date(new Date().getTime()).toISOString()  // Adjust for local time\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 210,
+        "y": 320,
+        "wires": [
+            [
+                "01521f9c32975c57"
+            ]
+        ]
+    },
+    {
+        "id": "01521f9c32975c57",
+        "type": "postgresql",
+        "z": "7f5fb69ba927e731",
+        "name": "Query de leitura do mac",
+        "query": "SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\n",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 530,
+        "y": 320,
+        "wires": [
+            [
+                "4a8a6bbb88ff12e9"
+            ]
+        ]
+    },
+    {
+        "id": "4a8a6bbb88ff12e9",
+        "type": "function",
+        "z": "7f5fb69ba927e731",
+        "name": "Tratamento pre-insercao",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    let id_beacon = msg.payload[0].id_beacon;\n    let name = msg.payload[0].name;\n    let originalPayload = msg.originalPayload;\n\n\n    //msg.topic = \"INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, nome, ppc, \\\"timestamp\\\") VALUES ($1, $2, $3, $4, $5)\";\n    msg.params = [id_beacon, originalPayload.mac_address, name, originalPayload.ppc,originalPayload.rssi, originalPayload.time_stamp];\n    return msg;\n} else {\n    // Caso não encontre o mac_address\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 320,
+        "wires": [
+            [
+                "9d1941f31f764d7b"
+            ]
+        ]
+    },
+    {
+        "id": "9d1941f31f764d7b",
+        "type": "postgresql",
+        "z": "7f5fb69ba927e731",
+        "name": "Insercao dos dados",
+        "query": "INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, name, ppc,rssi, time_stamp) VALUES ($1, $2, $3, $4, $5,$6)",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1030,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9a7dd77b52d0fd9d",
+        "type": "function",
+        "z": "ec2985f70197f29d",
+        "name": "Estruturacao do Payload",
+        "func": "let mac_address = msg.payload.id.replace(/:/g, '').toUpperCase();\nlet rssi = msg.payload.rssi;\n\n//msg.topic = \"SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\";\nmsg.params = [mac_address];\n\n\nmsg.originalPayload = {\n    mac_address: mac_address,\n    rssi: rssi,\n    ppc: 5,  // Define o valor de ppc conforme necessário\n    time_stamp:new Date(new Date().getTime()).toISOString()  // Adjust for local time\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 360,
+        "wires": [
+            [
+                "30d740e7303bd83d"
+            ]
+        ]
+    },
+    {
+        "id": "30d740e7303bd83d",
+        "type": "postgresql",
+        "z": "ec2985f70197f29d",
+        "name": "Query de leitura do mac",
+        "query": "SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\n",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 590,
+        "y": 360,
+        "wires": [
+            [
+                "aefd4b144827c25a"
+            ]
+        ]
+    },
+    {
+        "id": "aefd4b144827c25a",
+        "type": "function",
+        "z": "ec2985f70197f29d",
+        "name": "Tratamento pre-insercao",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    let id_beacon = msg.payload[0].id_beacon;\n    let name = msg.payload[0].name;\n    let originalPayload = msg.originalPayload;\n\n\n    //msg.topic = \"INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, nome, ppc, \\\"timestamp\\\") VALUES ($1, $2, $3, $4, $5)\";\n    msg.params = [id_beacon, originalPayload.mac_address, name, originalPayload.ppc,originalPayload.rssi, originalPayload.time_stamp];\n    return msg;\n} else {\n    // Caso não encontre o mac_address\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 360,
+        "wires": [
+            [
+                "3c6b0bf2d31a3960"
+            ]
+        ]
+    },
+    {
+        "id": "3c6b0bf2d31a3960",
+        "type": "postgresql",
+        "z": "ec2985f70197f29d",
+        "name": "Insercao dos dados",
+        "query": "INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, name, ppc,rssi, time_stamp) VALUES ($1, $2, $3, $4, $5,$6)",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1090,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7fea6971c0bb0c86",
+        "type": "function",
+        "z": "800f96f8ff618575",
+        "name": "Estruturacao do Payload",
+        "func": "let mac_address = msg.payload.id.replace(/:/g, '').toUpperCase();\nlet rssi = msg.payload.rssi;\n\n//msg.topic = \"SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\";\nmsg.params = [mac_address];\n\n\nmsg.originalPayload = {\n    mac_address: mac_address,\n    rssi: rssi,\n    ppc: 4,  // Define o valor de ppc conforme necessário\n    time_stamp:new Date(new Date().getTime()).toISOString()  // Adjust for local time\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 380,
+        "wires": [
+            [
+                "e9243dcc46f8de45"
+            ]
+        ]
+    },
+    {
+        "id": "e9243dcc46f8de45",
+        "type": "postgresql",
+        "z": "800f96f8ff618575",
+        "name": "Query de leitura do mac",
+        "query": "SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\n",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 570,
+        "y": 380,
+        "wires": [
+            [
+                "de5a88d4d7c8665d"
+            ]
+        ]
+    },
+    {
+        "id": "de5a88d4d7c8665d",
+        "type": "function",
+        "z": "800f96f8ff618575",
+        "name": "Tratamento pre-insercao",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    let id_beacon = msg.payload[0].id_beacon;\n    let name = msg.payload[0].name;\n    let originalPayload = msg.originalPayload;\n\n\n    //msg.topic = \"INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, nome, ppc, \\\"timestamp\\\") VALUES ($1, $2, $3, $4, $5)\";\n    msg.params = [id_beacon, originalPayload.mac_address, name, originalPayload.ppc,originalPayload.rssi, originalPayload.time_stamp];\n    return msg;\n} else {\n    // Caso não encontre o mac_address\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 380,
+        "wires": [
+            [
+                "2c1a577be3c4ecc2"
+            ]
+        ]
+    },
+    {
+        "id": "2c1a577be3c4ecc2",
+        "type": "postgresql",
+        "z": "800f96f8ff618575",
+        "name": "Insercao dos dados",
+        "query": "INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, name, ppc,rssi, time_stamp) VALUES ($1, $2, $3, $4, $5,$6)",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1070,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6c5e609393f1a28d",
+        "type": "function",
+        "z": "b3a902e56f9128e4",
+        "name": "Estruturacao do Payload",
+        "func": "let mac_address = msg.payload.id.replace(/:/g, '').toUpperCase();\nlet rssi = msg.payload.rssi;\n\n//msg.topic = \"SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\";\nmsg.params = [mac_address];\n\n\nmsg.originalPayload = {\n    mac_address: mac_address,\n    rssi: rssi,\n    ppc: 10,  // Define o valor de ppc conforme necessário\n    time_stamp:new Date(new Date().getTime()).toISOString()  // Adjust for local time\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 190,
+        "y": 320,
+        "wires": [
+            [
+                "576d0ced2c116a31"
+            ]
+        ]
+    },
+    {
+        "id": "576d0ced2c116a31",
+        "type": "postgresql",
+        "z": "b3a902e56f9128e4",
+        "name": "Query de leitura do mac",
+        "query": "SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\n",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 510,
+        "y": 320,
+        "wires": [
+            [
+                "cae5234e02230ddd"
+            ]
+        ]
+    },
+    {
+        "id": "cae5234e02230ddd",
+        "type": "function",
+        "z": "b3a902e56f9128e4",
+        "name": "Tratamento pre-insercao",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    let id_beacon = msg.payload[0].id_beacon;\n    let name = msg.payload[0].name;\n    let originalPayload = msg.originalPayload;\n\n\n    //msg.topic = \"INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, nome, ppc, \\\"timestamp\\\") VALUES ($1, $2, $3, $4, $5)\";\n    msg.params = [id_beacon, originalPayload.mac_address, name, originalPayload.ppc,originalPayload.rssi, originalPayload.time_stamp];\n    return msg;\n} else {\n    // Caso não encontre o mac_address\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 320,
+        "wires": [
+            [
+                "5033d8377a835c46"
+            ]
+        ]
+    },
+    {
+        "id": "5033d8377a835c46",
+        "type": "postgresql",
+        "z": "b3a902e56f9128e4",
+        "name": "Insercao dos dados",
+        "query": "INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, name, ppc,rssi, time_stamp) VALUES ($1, $2, $3, $4, $5,$6)",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1010,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d403db718c7bf559",
+        "type": "function",
+        "z": "cfa13376c440df75",
+        "name": "Estruturacao do Payload",
+        "func": "let mac_address = msg.payload.id.replace(/:/g, '').toUpperCase();\nlet rssi = msg.payload.rssi;\n\n//msg.topic = \"SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\";\nmsg.params = [mac_address];\n\n\nmsg.originalPayload = {\n    mac_address: mac_address,\n    rssi: rssi,\n    ppc: 3,  // Define o valor de ppc conforme necessário\n    time_stamp:new Date(new Date().getTime()).toISOString()  // Adjust for local time\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 170,
+        "y": 280,
+        "wires": [
+            [
+                "22eedf35c5743fef"
+            ]
+        ]
+    },
+    {
+        "id": "22eedf35c5743fef",
+        "type": "postgresql",
+        "z": "cfa13376c440df75",
+        "name": "Query de leitura do mac",
+        "query": "SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\n",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 280,
+        "wires": [
+            [
+                "872946a40df8aa53"
+            ]
+        ]
+    },
+    {
+        "id": "872946a40df8aa53",
+        "type": "function",
+        "z": "cfa13376c440df75",
+        "name": "Tratamento pre-insercao",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    let id_beacon = msg.payload[0].id_beacon;\n    let name = msg.payload[0].name;\n    let originalPayload = msg.originalPayload;\n\n\n    //msg.topic = \"INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, nome, ppc, \\\"timestamp\\\") VALUES ($1, $2, $3, $4, $5)\";\n    msg.params = [id_beacon, originalPayload.mac_address, name, originalPayload.ppc,originalPayload.rssi, originalPayload.time_stamp];\n    return msg;\n} else {\n    // Caso não encontre o mac_address\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 280,
+        "wires": [
+            [
+                "3446ad47ce570284"
+            ]
+        ]
+    },
+    {
+        "id": "3446ad47ce570284",
+        "type": "postgresql",
+        "z": "cfa13376c440df75",
+        "name": "Insercao dos dados",
+        "query": "INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, name, ppc,rssi, time_stamp) VALUES ($1, $2, $3, $4, $5,$6)",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 990,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4ea4b6e57bcf6e87",
+        "type": "function",
+        "z": "2c1e50abdb5b7936",
+        "name": "Estruturacao do Payload",
+        "func": "let mac_address = msg.payload.id.replace(/:/g, '').toUpperCase();\nlet rssi = msg.payload.rssi;\n\n//msg.topic = \"SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\";\nmsg.params = [mac_address];\n\n\nmsg.originalPayload = {\n    mac_address: mac_address,\n    rssi: rssi,\n    ppc: 2,  // Define o valor de ppc conforme necessário\n    time_stamp:new Date(new Date().getTime()).toISOString()  // Adjust for local time\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 170,
+        "y": 360,
+        "wires": [
+            [
+                "8fdb041eabe607cd"
+            ]
+        ]
+    },
+    {
+        "id": "8fdb041eabe607cd",
+        "type": "postgresql",
+        "z": "2c1e50abdb5b7936",
+        "name": "Query de leitura do mac",
+        "query": "SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\n",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 360,
+        "wires": [
+            [
+                "7a76b780f3ef37a8"
+            ]
+        ]
+    },
+    {
+        "id": "7a76b780f3ef37a8",
+        "type": "function",
+        "z": "2c1e50abdb5b7936",
+        "name": "Tratamento pre-insercao",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    let id_beacon = msg.payload[0].id_beacon;\n    let name = msg.payload[0].name;\n    let originalPayload = msg.originalPayload;\n\n\n    //msg.topic = \"INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, nome, ppc, \\\"timestamp\\\") VALUES ($1, $2, $3, $4, $5)\";\n    msg.params = [id_beacon, originalPayload.mac_address, name, originalPayload.ppc,originalPayload.rssi, originalPayload.time_stamp];\n    return msg;\n} else {\n    // Caso não encontre o mac_address\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 360,
+        "wires": [
+            [
+                "25c78a449d0ab480"
+            ]
+        ]
+    },
+    {
+        "id": "25c78a449d0ab480",
+        "type": "postgresql",
+        "z": "2c1e50abdb5b7936",
+        "name": "Insercao dos dados",
+        "query": "INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, name, ppc,rssi, time_stamp) VALUES ($1, $2, $3, $4, $5,$6)",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 990,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "97daa44c04e99a73",
+        "type": "function",
+        "z": "ad9414eeebbc446a",
+        "name": "Estruturacao do Payload",
+        "func": "let mac_address = msg.payload.id.replace(/:/g, '').toUpperCase();\nlet rssi = msg.payload.rssi;\n\n//msg.topic = \"SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\";\nmsg.params = [mac_address];\n\n\nmsg.originalPayload = {\n    mac_address: mac_address,\n    rssi: rssi,\n    ppc: 1,  // Define o valor de ppc conforme necessário\n    time_stamp:new Date(new Date().getTime()).toISOString()  // Adjust for local time\n};\n\nreturn msg; \n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 340,
+        "wires": [
+            [
+                "d51107afba8dbbd9"
+            ]
+        ]
+    },
+    {
+        "id": "d51107afba8dbbd9",
+        "type": "postgresql",
+        "z": "ad9414eeebbc446a",
+        "name": "Query de leitura do mac",
+        "query": "SELECT id_beacon, name FROM rtls.cadastro_beacons WHERE mac_address = $1\n",
+        "postgreSQLConfig": "631cfc165ef33f3e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 770,
+        "y": 340,
+        "wires": [
+            [
+                "eca7157b25a1b301"
+            ]
+        ]
+    },
+    {
+        "id": "eca7157b25a1b301",
+        "type": "function",
+        "z": "ad9414eeebbc446a",
+        "name": "Tratamento pre-insercao",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    let id_beacon = msg.payload[0].id_beacon;\n    let name = msg.payload[0].name;\n    let originalPayload = msg.originalPayload;\n\n\n    //msg.topic = \"INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, nome, ppc, \\\"timestamp\\\") VALUES ($1, $2, $3, $4, $5)\";\n    msg.params = [id_beacon, originalPayload.mac_address, name, originalPayload.ppc,originalPayload.rssi, originalPayload.time_stamp];\n    return msg;\n} else {\n    // Caso não encontre o mac_address\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1030,
+        "y": 340,
+        "wires": [
+            [
+                "7a5c0c9bd69c0af2"
+            ]
+        ]
+    },
+    {
+        "id": "7a5c0c9bd69c0af2",
+        "type": "postgresql",
+        "z": "ad9414eeebbc446a",
+        "name": "Insercao dos dados",
+        "query": "INSERT INTO rtls.tracking_beacons (id_beacon, mac_address, name, ppc,rssi, time_stamp) VALUES ($1, $2, $3, $4, $5,$6)",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1270,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8e4234e731cce0b8",
+        "type": "mqtt in",
+        "z": "3c907fa3f9f37479",
+        "g": "2c191fe67a046ca0",
+        "name": "",
+        "topic": "dados",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "ff3a4c5bf5aa1f3d",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 180,
+        "wires": [
+            [
+                "69f10ab6f0d6d354"
+            ]
+        ]
+    },
+    {
+        "id": "1a1b6af48646ff34",
+        "type": "aedes broker",
+        "z": "3c907fa3f9f37479",
+        "g": "2c191fe67a046ca0",
+        "name": "",
+        "mqtt_port": "1885",
+        "mqtt_ws_bind": "port",
+        "mqtt_ws_port": "",
+        "mqtt_ws_path": "",
+        "cert": "",
+        "key": "",
+        "certname": "",
+        "keyname": "",
+        "persistence_bind": "memory",
+        "dburl": "",
+        "usetls": false,
+        "x": 150,
+        "y": 80,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "69f10ab6f0d6d354",
+        "type": "function",
+        "z": "3c907fa3f9f37479",
+        "g": "2c191fe67a046ca0",
+        "name": "Estruturacao_dados",
+        "func": "let dt = msg.payload.datetime;  // Extraído diretamente do JSON\nlet tensao = msg.payload.tensao;\nlet temperatura = msg.payload.temperatura;\nlet umidade = msg.payload.umidade;\nlet luminosidade = msg.payload.luminosidade;\n\n// Estruturar o novo payload\n//msg.topic = \"INSERT INTO sensor_data (datetime, tensao, temperatura, umidade, luminosidade) VALUES ($1, $2, $3, $4, $5)\";\nmsg.params = [dt, tensao, temperatura, umidade, luminosidade];\n\n// Estruturar o payload original para rastreio\nmsg.originalPayload = {\n    dt: dt,\n    tensao: tensao,\n    temperatura: temperatura,\n    umidade: umidade,\n    luminosidade: luminosidade\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 180,
+        "wires": [
+            [
+                "a0d8290b1d13ff85",
+                "be92216b1f858a76"
+            ]
+        ]
+    },
+    {
+        "id": "a0d8290b1d13ff85",
+        "type": "debug",
+        "z": "3c907fa3f9f37479",
+        "g": "2c191fe67a046ca0",
+        "name": "debug 94",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "016e5538aea00dbb",
+        "type": "inject",
+        "z": "3c907fa3f9f37479",
+        "g": "51bc6fe91d0818d8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 440,
+        "wires": [
+            [
+                "b0d31c2c8a50a8ea"
+            ]
+        ]
+    },
+    {
+        "id": "b0d31c2c8a50a8ea",
+        "type": "postgresql",
+        "z": "3c907fa3f9f37479",
+        "g": "51bc6fe91d0818d8",
+        "name": "",
+        "query": "SELECT * FROM sep.dados;",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 310,
+        "y": 440,
+        "wires": [
+            [
+                "2430ef3e2e44223c"
+            ]
+        ]
+    },
+    {
+        "id": "2430ef3e2e44223c",
+        "type": "debug",
+        "z": "3c907fa3f9f37479",
+        "g": "51bc6fe91d0818d8",
+        "name": "debug 95",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "be92216b1f858a76",
+        "type": "postgresql",
+        "z": "3c907fa3f9f37479",
+        "g": "2c191fe67a046ca0",
+        "name": "",
+        "query": "INSERT INTO sep.dados (dt, tensao, temperatura, umidade,luminosidade) VALUES ($1, $2, $3, $4, $5)",
+        "postgreSQLConfig": "38f517e2df76f71e",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 650,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7be2edf6c4dcf2fc",
+        "type": "inject",
+        "z": "3c907fa3f9f37479",
+        "g": "57927dd28acf7eb9",
+        "name": "trigger",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 320,
+        "wires": [
+            [
+                "688b09457fc64428"
+            ]
+        ]
+    },
+    {
+        "id": "41fd82cadd8e5a51",
+        "type": "mqtt out",
+        "z": "3c907fa3f9f37479",
+        "g": "57927dd28acf7eb9",
+        "name": "",
+        "topic": "dados",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "ff3a4c5bf5aa1f3d",
+        "x": 510,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "688b09457fc64428",
+        "type": "function",
+        "z": "3c907fa3f9f37479",
+        "g": "57927dd28acf7eb9",
+        "name": "Simulador de device IoT",
+        "func": "// Gerar valores aleatórios\nlet tensao = (Math.random() * (5 - 4) + 4).toFixed(2); // 4.00 a 5.00 V\nlet temperatura = (Math.random() * (25 - 20) + 20).toFixed(2); // 20.00 a 25.00 ºC\nlet umidade = Math.floor(Math.random() * (100 - 70 + 1)) + 70; // 70% a 100%\nlet luminosidade = Math.floor(Math.random() * (1000 - 500 + 1)) + 500; // 500 a 1000\n\n// Obter o horário local\nlet now = new Date();\nlet datetime = new Date(now.getTime() - now.getTimezoneOffset() * 60000).toISOString().replace('T', ' ').slice(0, 19); // Formato YYYY-MM-DD HH:MM:SS\n\n// Construir o JSON\nmsg.payload = {\n    datetime: datetime,\n    tensao: parseFloat(tensao),\n    temperatura: parseFloat(temperatura),\n    umidade: umidade,\n    luminosidade: luminosidade\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 320,
+        "wires": [
+            [
+                "41fd82cadd8e5a51"
+            ]
+        ]
+    },
+    {
+        "id": "413a2cf8.988ee4",
+        "type": "inject",
+        "z": "30e0cb4e.ea6f24",
+        "g": "100f8a83.e106ed",
+        "name": "RUN",
+        "props": [],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "10",
+        "topic": "",
+        "x": 290,
+        "y": 140,
+        "wires": [
+            [
+                "150f7151.7291af"
+            ]
+        ]
+    },
+    {
+        "id": "e2050e23.5985f",
+        "type": "change",
+        "z": "30e0cb4e.ea6f24",
+        "g": "100f8a83.e106ed",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "counter",
+                "pt": "global",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "79a5d77.7907fa8",
+        "type": "inject",
+        "z": "30e0cb4e.ea6f24",
+        "g": "100f8a83.e106ed",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "str",
+        "x": 290,
+        "y": 80,
+        "wires": [
+            [
+                "e2050e23.5985f"
+            ]
+        ]
+    },
+    {
+        "id": "efdb71f1.e79438",
+        "type": "change",
+        "z": "30e0cb4e.ea6f24",
+        "g": "100f8a83.e106ed",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "counter",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 600,
+        "y": 140,
+        "wires": [
+            [
+                "3c7f81f3.c7a20e"
+            ]
+        ]
+    },
+    {
+        "id": "150f7151.7291af",
+        "type": "function",
+        "z": "30e0cb4e.ea6f24",
+        "g": "100f8a83.e106ed",
+        "name": "+1",
+        "func": "// Verifica se a mensagem tem a propriedade \"payload\"\nif (msg.hasOwnProperty(\"payload\")) {\n  global.set(\"counter\", 0);  // Reseta o contador global para 0 se a mensagem tiver a propriedade \"payload\"\n  return msg;  // Retorna a mensagem e interrompe a execução do restante do código\n}\n\n// Se a mensagem não tiver a propriedade \"payload\"\n// Incrementa o valor atual de \"counter\" no escopo global\nglobal.set(\"counter\", global.get(\"counter\") + 1);\nreturn msg;  // Retorna a mensagem para continuar no fluxo\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 140,
+        "wires": [
+            [
+                "efdb71f1.e79438"
+            ]
+        ]
+    },
+    {
+        "id": "3c7f81f3.c7a20e",
+        "type": "debug",
+        "z": "30e0cb4e.ea6f24",
+        "g": "100f8a83.e106ed",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 790,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "1649185f.3c8c58",
+        "type": "inject",
+        "z": "30e0cb4e.ea6f24",
+        "g": "100f8a83.e106ed",
+        "name": "Reset",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 290,
+        "y": 200,
+        "wires": [
+            [
+                "150f7151.7291af"
+            ]
+        ]
+    },
+    {
+        "id": "3bcc34c472f6dc2f",
+        "type": "inject",
+        "z": "30e0cb4e.ea6f24",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "example",
+                "v": "true",
+                "vt": "bool"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 260,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a9b491e3eadd57a4",
+        "type": "inject",
+        "z": "30e0cb4e.ea6f24",
+        "name": "Exemplo JSON",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"key1\":\"string\",\"key2\":10,\"key3\":true}",
+        "payloadType": "json",
+        "x": 280,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1532ff27590913dd",
+        "type": "debug",
+        "z": "7ec8e9189ea43b06",
+        "g": "aa80c9053b7f7c80",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "a92950f6c36a0284",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "aa80c9053b7f7c80",
+        "name": "",
+        "group": "258e81d8e70e3910",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Enviar",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "send",
+        "payload": "Enviar dados",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 230,
+        "y": 200,
+        "wires": [
+            [
+                "825bdde2919e527c"
+            ]
+        ]
+    },
+    {
+        "id": "825bdde2919e527c",
+        "type": "debug",
+        "z": "7ec8e9189ea43b06",
+        "g": "aa80c9053b7f7c80",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "9511b74d73dcd178",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "aa80c9053b7f7c80",
+        "name": "",
+        "group": "258e81d8e70e3910",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Botao Generico",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "Botão Pressionado",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 240,
+        "y": 120,
+        "wires": [
+            [
+                "1532ff27590913dd"
+            ]
+        ]
+    },
+    {
+        "id": "2a84862e5be0f548",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "aa80c9053b7f7c80",
+        "name": "",
+        "group": "c7435f899674ef1c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Habilita",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 220,
+        "y": 300,
+        "wires": [
+            [
+                "6b9d1ba94b5703bd"
+            ]
+        ]
+    },
+    {
+        "id": "3f7743f39f345887",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "aa80c9053b7f7c80",
+        "name": "",
+        "group": "c7435f899674ef1c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Desabilita",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 220,
+        "y": 360,
+        "wires": [
+            [
+                "6b9d1ba94b5703bd"
+            ]
+        ]
+    },
+    {
+        "id": "6b9d1ba94b5703bd",
+        "type": "change",
+        "z": "7ec8e9189ea43b06",
+        "g": "aa80c9053b7f7c80",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 340,
+        "wires": [
+            [
+                "3d49d08eebae1683"
+            ]
+        ]
+    },
+    {
+        "id": "3d49d08eebae1683",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "aa80c9053b7f7c80",
+        "name": "",
+        "group": "258e81d8e70e3910",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Habilita/Desabilita",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 730,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0ab0e0b9c33eef81",
+        "type": "ui_dropdown",
+        "z": "7ec8e9189ea43b06",
+        "g": "4ec2a987afbc4c6d",
+        "name": "",
+        "label": "Seletor",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "b962a601131ffc1b",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Topico 1",
+                "value": "Topico 1",
+                "type": "str"
+            },
+            {
+                "label": "Nome",
+                "value": "Nome",
+                "type": "str"
+            },
+            {
+                "label": "Endereco",
+                "value": "Endereco",
+                "type": "str"
+            },
+            {
+                "label": "Idade",
+                "value": 30,
+                "type": "num"
+            },
+            {
+                "label": "Status",
+                "value": true,
+                "type": "bool"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 300,
+        "y": 460,
+        "wires": [
+            [
+                "d5bfdc537ac35f60"
+            ]
+        ]
+    },
+    {
+        "id": "d5bfdc537ac35f60",
+        "type": "debug",
+        "z": "7ec8e9189ea43b06",
+        "g": "4ec2a987afbc4c6d",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "b4bbc466b5d12ada",
+        "type": "ui_dropdown",
+        "z": "7ec8e9189ea43b06",
+        "g": "4ec2a987afbc4c6d",
+        "name": "",
+        "label": "Seletor por Botao",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "b962a601131ffc1b",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Topico 1",
+                "value": "Topico 1",
+                "type": "str"
+            },
+            {
+                "label": "Nome",
+                "value": "Nome",
+                "type": "str"
+            },
+            {
+                "label": "Endereco",
+                "value": "Endereco",
+                "type": "str"
+            },
+            {
+                "label": "Idade",
+                "value": 30,
+                "type": "num"
+            },
+            {
+                "label": "Status",
+                "value": true,
+                "type": "bool"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 510,
+        "y": 560,
+        "wires": [
+            [
+                "c71c3103c6565f0d"
+            ]
+        ]
+    },
+    {
+        "id": "c71c3103c6565f0d",
+        "type": "debug",
+        "z": "7ec8e9189ea43b06",
+        "g": "4ec2a987afbc4c6d",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 700,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "cfa21385c81d99a2",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "4ec2a987afbc4c6d",
+        "name": "",
+        "group": "b962a601131ffc1b",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Botao Idade",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "30",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 250,
+        "y": 700,
+        "wires": [
+            [
+                "b4bbc466b5d12ada"
+            ]
+        ]
+    },
+    {
+        "id": "a0980b33163c7571",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "4ec2a987afbc4c6d",
+        "name": "",
+        "group": "b962a601131ffc1b",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Botao Endereco",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "Endereco",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 260,
+        "y": 640,
+        "wires": [
+            [
+                "b4bbc466b5d12ada"
+            ]
+        ]
+    },
+    {
+        "id": "db31b6b69b29b638",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "4ec2a987afbc4c6d",
+        "name": "",
+        "group": "b962a601131ffc1b",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Botao Nome",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "Nome",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 250,
+        "y": 600,
+        "wires": [
+            [
+                "b4bbc466b5d12ada"
+            ]
+        ]
+    },
+    {
+        "id": "7746fd8fe730c205",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "4ec2a987afbc4c6d",
+        "name": "",
+        "group": "b962a601131ffc1b",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Botao Topico 1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "Topico 1",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 240,
+        "y": 540,
+        "wires": [
+            [
+                "b4bbc466b5d12ada"
+            ]
+        ]
+    },
+    {
+        "id": "2ddd0b004373806f",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "4ec2a987afbc4c6d",
+        "name": "",
+        "group": "b962a601131ffc1b",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Botao Status",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 250,
+        "y": 760,
+        "wires": [
+            [
+                "b4bbc466b5d12ada"
+            ]
+        ]
+    },
+    {
+        "id": "70bfb5be6bc98531",
+        "type": "change",
+        "z": "7ec8e9189ea43b06",
+        "g": "4ec2a987afbc4c6d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "options",
+                "pt": "msg",
+                "to": "[\"Novo Topico\",{\"New Topic 1\":0,\"New Topic 2\":2}]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 760,
+        "wires": [
+            [
+                "b4bbc466b5d12ada"
+            ]
+        ]
+    },
+    {
+        "id": "45338ae7544fc722",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "4ec2a987afbc4c6d",
+        "name": "",
+        "group": "81764e141d9410ad",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Mudar Seletores",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "orange",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 260,
+        "y": 820,
+        "wires": [
+            [
+                "70bfb5be6bc98531"
+            ]
+        ]
+    },
+    {
+        "id": "8c35d39bc9b419e7",
+        "type": "ui_switch",
+        "z": "7ec8e9189ea43b06",
+        "g": "2322797129a8bcd7",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "1e68cfd4ce66f0ca",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "x": 1150,
+        "y": 540,
+        "wires": [
+            [
+                "092d1c9c422c6b07"
+            ]
+        ]
+    },
+    {
+        "id": "092d1c9c422c6b07",
+        "type": "debug",
+        "z": "7ec8e9189ea43b06",
+        "g": "2322797129a8bcd7",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1340,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "e5f25a53ebdfc5c0",
+        "type": "ui_switch",
+        "z": "7ec8e9189ea43b06",
+        "g": "2322797129a8bcd7",
+        "name": "",
+        "label": "Custom Switch",
+        "tooltip": "",
+        "group": "1e68cfd4ce66f0ca",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "check",
+        "oncolor": "green",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "close",
+        "offcolor": "red",
+        "animate": true,
+        "x": 1180,
+        "y": 620,
+        "wires": [
+            [
+                "714546d88c9336ca"
+            ]
+        ]
+    },
+    {
+        "id": "714546d88c9336ca",
+        "type": "debug",
+        "z": "7ec8e9189ea43b06",
+        "g": "2322797129a8bcd7",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1340,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "b8de2354a1fd1c50",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "2322797129a8bcd7",
+        "name": "",
+        "group": "e1f333ed378d2728",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Habilita",
+        "tooltip": "",
+        "color": "green",
+        "bgcolor": "white",
+        "icon": "fa-cog",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1020,
+        "y": 720,
+        "wires": [
+            [
+                "8e82b1accfea5fd2"
+            ]
+        ]
+    },
+    {
+        "id": "25c840f36efcd60a",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "2322797129a8bcd7",
+        "name": "",
+        "group": "e1f333ed378d2728",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Desabilita",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "icon": "fa-cog",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1020,
+        "y": 780,
+        "wires": [
+            [
+                "8e82b1accfea5fd2"
+            ]
+        ]
+    },
+    {
+        "id": "8e82b1accfea5fd2",
+        "type": "change",
+        "z": "7ec8e9189ea43b06",
+        "g": "2322797129a8bcd7",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1240,
+        "y": 760,
+        "wires": [
+            [
+                "8683c4a474477481"
+            ]
+        ]
+    },
+    {
+        "id": "8683c4a474477481",
+        "type": "ui_switch",
+        "z": "7ec8e9189ea43b06",
+        "g": "2322797129a8bcd7",
+        "name": "",
+        "label": "Switch com botão",
+        "tooltip": "",
+        "group": "1e68cfd4ce66f0ca",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "x": 1450,
+        "y": 760,
+        "wires": [
+            [
+                "26ef5e63339b456a"
+            ]
+        ]
+    },
+    {
+        "id": "26ef5e63339b456a",
+        "type": "debug",
+        "z": "7ec8e9189ea43b06",
+        "g": "2322797129a8bcd7",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1680,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "779c8ae55117d4a3",
+        "type": "ui_slider",
+        "z": "7ec8e9189ea43b06",
+        "g": "e6bae511c75a29c9",
+        "name": "",
+        "label": "slider",
+        "tooltip": "",
+        "group": "d2e83866d6bb4384",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "x": 1210,
+        "y": 120,
+        "wires": [
+            [
+                "dd20035ef72034c8"
+            ]
+        ]
+    },
+    {
+        "id": "dd20035ef72034c8",
+        "type": "debug",
+        "z": "7ec8e9189ea43b06",
+        "g": "e6bae511c75a29c9",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1400,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "7350d288a830db65",
+        "type": "ui_slider",
+        "z": "7ec8e9189ea43b06",
+        "g": "e6bae511c75a29c9",
+        "name": "",
+        "label": "Slider com Botões",
+        "tooltip": "",
+        "group": "d2e83866d6bb4384",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "x": 1490,
+        "y": 300,
+        "wires": [
+            [
+                "86331d1965989e51"
+            ]
+        ]
+    },
+    {
+        "id": "86331d1965989e51",
+        "type": "debug",
+        "z": "7ec8e9189ea43b06",
+        "g": "e6bae511c75a29c9",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1700,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "8640db2b0d9111eb",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "e6bae511c75a29c9",
+        "name": "",
+        "group": "bd31eb617d3349d0",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Habilita",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1040,
+        "y": 260,
+        "wires": [
+            [
+                "f2d97b0aea788f93"
+            ]
+        ]
+    },
+    {
+        "id": "d9a1ffb998a13bbd",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "e6bae511c75a29c9",
+        "name": "",
+        "group": "bd31eb617d3349d0",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Desabilita",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1040,
+        "y": 320,
+        "wires": [
+            [
+                "f2d97b0aea788f93"
+            ]
+        ]
+    },
+    {
+        "id": "f2d97b0aea788f93",
+        "type": "change",
+        "z": "7ec8e9189ea43b06",
+        "g": "e6bae511c75a29c9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1260,
+        "y": 300,
+        "wires": [
+            [
+                "7350d288a830db65"
+            ]
+        ]
+    },
+    {
+        "id": "7bbe06adf2e8da8f",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "e6bae511c75a29c9",
+        "name": "",
+        "group": "bd31eb617d3349d0",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Setar Valor Aleatório",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1160,
+        "y": 420,
+        "wires": [
+            [
+                "063ae82d9a75cf25"
+            ]
+        ]
+    },
+    {
+        "id": "063ae82d9a75cf25",
+        "type": "random",
+        "z": "7ec8e9189ea43b06",
+        "g": "e6bae511c75a29c9",
+        "name": "",
+        "low": 1,
+        "high": "100",
+        "inte": "true",
+        "property": "payload",
+        "x": 1360,
+        "y": 420,
+        "wires": [
+            [
+                "7350d288a830db65"
+            ]
+        ]
+    },
+    {
+        "id": "900c4208ea50e9d9",
+        "type": "ui_numeric",
+        "z": "7ec8e9189ea43b06",
+        "g": "cb2e80f1ce837107",
+        "name": "",
+        "label": "numeric",
+        "tooltip": "",
+        "group": "fcbda89011690118",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "x": 220,
+        "y": 940,
+        "wires": [
+            [
+                "483234ed316a6de6"
+            ]
+        ]
+    },
+    {
+        "id": "483234ed316a6de6",
+        "type": "debug",
+        "z": "7ec8e9189ea43b06",
+        "g": "cb2e80f1ce837107",
+        "name": "debug 11",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 380,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "e934fa64064b585f",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "cb2e80f1ce837107",
+        "name": "",
+        "group": "84f0fb67efceb6c8",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Habilita",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 220,
+        "y": 1080,
+        "wires": [
+            [
+                "9385ad8be4300acc"
+            ]
+        ]
+    },
+    {
+        "id": "38dc16ac2f5fe2f4",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "cb2e80f1ce837107",
+        "name": "",
+        "group": "84f0fb67efceb6c8",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Desabilita",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 220,
+        "y": 1140,
+        "wires": [
+            [
+                "9385ad8be4300acc"
+            ]
+        ]
+    },
+    {
+        "id": "9385ad8be4300acc",
+        "type": "change",
+        "z": "7ec8e9189ea43b06",
+        "g": "cb2e80f1ce837107",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 1120,
+        "wires": [
+            [
+                "b1f1e897ab7a7bd0"
+            ]
+        ]
+    },
+    {
+        "id": "b1f1e897ab7a7bd0",
+        "type": "ui_numeric",
+        "z": "7ec8e9189ea43b06",
+        "g": "cb2e80f1ce837107",
+        "name": "",
+        "label": "numeric",
+        "tooltip": "",
+        "group": "fcbda89011690118",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}%",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "x": 620,
+        "y": 1120,
+        "wires": [
+            [
+                "62a882910b2eb703"
+            ]
+        ]
+    },
+    {
+        "id": "62a882910b2eb703",
+        "type": "debug",
+        "z": "7ec8e9189ea43b06",
+        "g": "cb2e80f1ce837107",
+        "name": "debug 12",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "fe5a5f1a85a7f71d",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "cb2e80f1ce837107",
+        "name": "",
+        "group": "84f0fb67efceb6c8",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Setar Valor Aleatório",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 260,
+        "y": 1220,
+        "wires": [
+            [
+                "d6c1167e8c82f280"
+            ]
+        ]
+    },
+    {
+        "id": "d6c1167e8c82f280",
+        "type": "random",
+        "z": "7ec8e9189ea43b06",
+        "g": "cb2e80f1ce837107",
+        "name": "",
+        "low": 1,
+        "high": "100",
+        "inte": "true",
+        "property": "payload",
+        "x": 460,
+        "y": 1220,
+        "wires": [
+            [
+                "b1f1e897ab7a7bd0"
+            ]
+        ]
+    },
+    {
+        "id": "c36d984b527ff540",
+        "type": "ui_gauge",
+        "z": "7ec8e9189ea43b06",
+        "g": "7019881ba270341d",
+        "name": "",
+        "group": "5ea88c38bf17e99a",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temperatura",
+        "label": "ºC",
+        "format": "{{value}}",
+        "min": "-50",
+        "max": "50",
+        "colors": [
+            "#397dd5",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "-10",
+        "seg2": "25",
+        "x": 1570,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "cc77a1f83e7f3e26",
+        "type": "inject",
+        "z": "7ec8e9189ea43b06",
+        "g": "7019881ba270341d",
+        "name": "Trigger",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1140,
+        "y": 960,
+        "wires": [
+            [
+                "d8a4538c14c45b4c"
+            ]
+        ]
+    },
+    {
+        "id": "d8a4538c14c45b4c",
+        "type": "function",
+        "z": "7ec8e9189ea43b06",
+        "g": "7019881ba270341d",
+        "name": "function 1",
+        "func": "// Gerando numeros aleatorios\n\nmsg.payload = parseFloat(((Math.random() - 0.5) * 100).toFixed(2));\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1320,
+        "y": 1000,
+        "wires": [
+            [
+                "c36d984b527ff540",
+                "9923a4380ed92e58"
+            ]
+        ]
+    },
+    {
+        "id": "1c2bb35e2dc503d4",
+        "type": "ui_gauge",
+        "z": "7ec8e9189ea43b06",
+        "g": "7019881ba270341d",
+        "name": "",
+        "group": "5ea88c38bf17e99a",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Umidade Relativa",
+        "label": "%",
+        "format": "{{value | number:2}}",
+        "min": "0",
+        "max": "100",
+        "colors": [
+            "#d53939",
+            "#e6e600",
+            "#3694ec"
+        ],
+        "seg1": "10",
+        "seg2": "50",
+        "x": 1590,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "de35142976872e8d",
+        "type": "inject",
+        "z": "7ec8e9189ea43b06",
+        "g": "7019881ba270341d",
+        "name": "Trigger",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1140,
+        "y": 1060,
+        "wires": [
+            [
+                "60a72346b6b3e146",
+                "217ece574519aa33"
+            ]
+        ]
+    },
+    {
+        "id": "60a72346b6b3e146",
+        "type": "function",
+        "z": "7ec8e9189ea43b06",
+        "g": "7019881ba270341d",
+        "name": "function 2",
+        "func": "// Gerando numeros aleatorios\n\nmsg.payload = parseFloat(((Math.random()) * 100));\nmsg.topic = \"Umidade Sala\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1320,
+        "y": 1100,
+        "wires": [
+            [
+                "1c2bb35e2dc503d4",
+                "391528b8dad3ea53"
+            ]
+        ]
+    },
+    {
+        "id": "9923a4380ed92e58",
+        "type": "ui_chart",
+        "z": "7ec8e9189ea43b06",
+        "g": "7019881ba270341d",
+        "name": "",
+        "group": "ab9c9aa15be24a68",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Histórico de Temperatura",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-50",
+        "ymax": "50",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 1610,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "391528b8dad3ea53",
+        "type": "ui_chart",
+        "z": "7ec8e9189ea43b06",
+        "g": "7019881ba270341d",
+        "name": "",
+        "group": "ab9c9aa15be24a68",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Histórico de Umidade",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#ec1818",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 1600,
+        "y": 1120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a95add6a5a75d31f",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "7019881ba270341d",
+        "name": "",
+        "group": "80ba02adb15f48cd",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Limpar Graficos",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "refresh",
+        "payload": "[]",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1300,
+        "y": 1260,
+        "wires": [
+            [
+                "9923a4380ed92e58",
+                "391528b8dad3ea53"
+            ]
+        ]
+    },
+    {
+        "id": "217ece574519aa33",
+        "type": "function",
+        "z": "7ec8e9189ea43b06",
+        "g": "7019881ba270341d",
+        "name": "function 3",
+        "func": "// Gerando numeros aleatorios\n\nmsg.payload = parseFloat(((Math.random()) * 100));\nmsg.topic = \"Umidade Quarto\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1320,
+        "y": 1140,
+        "wires": [
+            [
+                "391528b8dad3ea53"
+            ]
+        ]
+    },
+    {
+        "id": "8ab23a0.79a23c8",
+        "type": "inject",
+        "z": "587f8b93.289ac4",
+        "g": "a3d4a309.c9e19",
+        "name": "Inject Data 1",
+        "props": [
+            {
+                "p": "system_started",
+                "v": "",
+                "vt": "date"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 190,
+        "y": 100,
+        "wires": [
+            [
+                "b97210e3.40bc2"
+            ]
+        ]
+    },
+    {
+        "id": "d1f1a509.fb3ed",
+        "type": "inject",
+        "z": "587f8b93.289ac4",
+        "g": "a3d4a309.c9e19",
+        "name": "Inject Data 2",
+        "props": [
+            {
+                "p": "value1",
+                "v": "10",
+                "vt": "num"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 190,
+        "y": 140,
+        "wires": [
+            [
+                "b97210e3.40bc2"
+            ]
+        ]
+    },
+    {
+        "id": "ff37c9c5.1be8c",
+        "type": "inject",
+        "z": "587f8b93.289ac4",
+        "g": "a3d4a309.c9e19",
+        "name": "Inject Data 2",
+        "props": [
+            {
+                "p": "value2",
+                "v": "20",
+                "vt": "num"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 190,
+        "y": 180,
+        "wires": [
+            [
+                "b97210e3.40bc2"
+            ]
+        ]
+    },
+    {
+        "id": "b97210e3.40bc2",
+        "type": "join",
+        "z": "587f8b93.289ac4",
+        "g": "a3d4a309.c9e19",
+        "name": "Manual Join",
+        "mode": "custom",
+        "build": "merged",
+        "property": "",
+        "propertyType": "full",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": true,
+        "timeout": "5",
+        "count": "3",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 410,
+        "y": 140,
+        "wires": [
+            [
+                "a3db617e.d80858"
+            ]
+        ]
+    },
+    {
+        "id": "a3db617e.d80858",
+        "type": "debug",
+        "z": "587f8b93.289ac4",
+        "g": "a3d4a309.c9e19",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "67c2837c.0e8ab4",
+        "type": "inject",
+        "z": "587f8b93.289ac4",
+        "g": "232deb88.0ae87c",
+        "name": "Complete Data",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"stopped_reason\":\"Completed Routine\",\"value1\":100,\"value2\":200}",
+        "payloadType": "json",
+        "x": 200,
+        "y": 280,
+        "wires": [
+            [
+                "10cbb4cd.b1cc23"
+            ]
+        ]
+    },
+    {
+        "id": "10cbb4cd.b1cc23",
+        "type": "split",
+        "z": "587f8b93.289ac4",
+        "g": "232deb88.0ae87c",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 390,
+        "y": 280,
+        "wires": [
+            [
+                "8de4b741.39f6e"
+            ]
+        ]
+    },
+    {
+        "id": "8de4b741.39f6e",
+        "type": "debug",
+        "z": "587f8b93.289ac4",
+        "g": "232deb88.0ae87c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "93fff655.c76928",
+        "type": "inject",
+        "z": "587f8b93.289ac4",
+        "g": "1bbfe8d4.b3c3c7",
+        "name": "Complete Data",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"stopped_reason\":\"Completed Routine\",\"value1\":100,\"value2\":200}",
+        "payloadType": "json",
+        "x": 200,
+        "y": 420,
+        "wires": [
+            [
+                "bf5809f4.529dd"
+            ]
+        ]
+    },
+    {
+        "id": "bf5809f4.529dd",
+        "type": "split",
+        "z": "587f8b93.289ac4",
+        "g": "1bbfe8d4.b3c3c7",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 390,
+        "y": 420,
+        "wires": [
+            [
+                "671c2c20.4d4ce4",
+                "b54a6cda.47d58"
+            ]
+        ]
+    },
+    {
+        "id": "80288447.cb2ec",
+        "type": "debug",
+        "z": "587f8b93.289ac4",
+        "g": "1bbfe8d4.b3c3c7",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "671c2c20.4d4ce4",
+        "type": "switch",
+        "z": "587f8b93.289ac4",
+        "g": "1bbfe8d4.b3c3c7",
+        "name": "Obtain Values",
+        "property": "parts.key",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "value",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 540,
+        "y": 420,
+        "wires": [
+            [
+                "74d37fcc.99f2a8"
+            ],
+            [
+                "5d3ce4ad.e0f324"
+            ]
+        ]
+    },
+    {
+        "id": "74d37fcc.99f2a8",
+        "type": "change",
+        "z": "587f8b93.289ac4",
+        "g": "1bbfe8d4.b3c3c7",
+        "name": "Clear Values",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 380,
+        "wires": [
+            [
+                "5d3ce4ad.e0f324"
+            ]
+        ]
+    },
+    {
+        "id": "5d3ce4ad.e0f324",
+        "type": "join",
+        "z": "587f8b93.289ac4",
+        "g": "1bbfe8d4.b3c3c7",
+        "name": "",
+        "mode": "auto",
+        "build": "string",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 830,
+        "y": 440,
+        "wires": [
+            [
+                "80288447.cb2ec"
+            ]
+        ]
+    },
+    {
+        "id": "b54a6cda.47d58",
+        "type": "debug",
+        "z": "587f8b93.289ac4",
+        "g": "1bbfe8d4.b3c3c7",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 510,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "664c1010.9a2908",
+        "type": "batch",
+        "z": "587f8b93.289ac4",
+        "g": "ed6f4ee4.b9c748",
+        "name": "",
+        "mode": "interval",
+        "count": 10,
+        "overlap": 0,
+        "interval": 10,
+        "allowEmptySequence": false,
+        "topics": [],
+        "x": 610,
+        "y": 560,
+        "wires": [
+            [
+                "5858c3dc.549b14"
+            ]
+        ]
+    },
+    {
+        "id": "250f8c5b.00136c",
+        "type": "inject",
+        "z": "587f8b93.289ac4",
+        "g": "ed6f4ee4.b9c748",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 170,
+        "y": 560,
+        "wires": [
+            [
+                "664c1010.9a2908"
+            ]
+        ]
+    },
+    {
+        "id": "5858c3dc.549b14",
+        "type": "debug",
+        "z": "587f8b93.289ac4",
+        "g": "ed6f4ee4.b9c748",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "cea18c5f.a92438",
+        "type": "batch",
+        "z": "587f8b93.289ac4",
+        "g": "8b8b4e75.59605",
+        "name": "batch - no overlap",
+        "mode": "count",
+        "count": "5",
+        "overlap": 0,
+        "interval": 10,
+        "allowEmptySequence": false,
+        "topics": [],
+        "x": 610,
+        "y": 720,
+        "wires": [
+            [
+                "ddbad75.75672a8"
+            ]
+        ]
+    },
+    {
+        "id": "86460837.bd883",
+        "type": "inject",
+        "z": "587f8b93.289ac4",
+        "g": "8b8b4e75.59605",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 170,
+        "y": 660,
+        "wires": [
+            [
+                "cea18c5f.a92438",
+                "27dd03d8.dcf9cc"
+            ]
+        ]
+    },
+    {
+        "id": "3ba49cf7.11ecd4",
+        "type": "inject",
+        "z": "587f8b93.289ac4",
+        "g": "8b8b4e75.59605",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "2",
+        "payloadType": "num",
+        "x": 170,
+        "y": 700,
+        "wires": [
+            [
+                "cea18c5f.a92438",
+                "27dd03d8.dcf9cc"
+            ]
+        ]
+    },
+    {
+        "id": "6a3d5661.72dd98",
+        "type": "inject",
+        "z": "587f8b93.289ac4",
+        "g": "8b8b4e75.59605",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "3",
+        "payloadType": "num",
+        "x": 170,
+        "y": 740,
+        "wires": [
+            [
+                "cea18c5f.a92438",
+                "27dd03d8.dcf9cc"
+            ]
+        ]
+    },
+    {
+        "id": "a66b5946.094d58",
+        "type": "inject",
+        "z": "587f8b93.289ac4",
+        "g": "8b8b4e75.59605",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "4",
+        "payloadType": "num",
+        "x": 170,
+        "y": 780,
+        "wires": [
+            [
+                "cea18c5f.a92438",
+                "27dd03d8.dcf9cc"
+            ]
+        ]
+    },
+    {
+        "id": "6d2fa089.6cd65",
+        "type": "inject",
+        "z": "587f8b93.289ac4",
+        "g": "8b8b4e75.59605",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "5",
+        "payloadType": "num",
+        "x": 170,
+        "y": 820,
+        "wires": [
+            [
+                "cea18c5f.a92438",
+                "27dd03d8.dcf9cc"
+            ]
+        ]
+    },
+    {
+        "id": "27dd03d8.dcf9cc",
+        "type": "batch",
+        "z": "587f8b93.289ac4",
+        "g": "8b8b4e75.59605",
+        "name": "batch - with overlap = 2",
+        "mode": "count",
+        "count": "5",
+        "overlap": "2",
+        "interval": 10,
+        "allowEmptySequence": false,
+        "topics": [],
+        "x": 630,
+        "y": 760,
+        "wires": [
+            [
+                "d9a61570.a2d3d8"
+            ]
+        ]
+    },
+    {
+        "id": "ddbad75.75672a8",
+        "type": "debug",
+        "z": "587f8b93.289ac4",
+        "g": "8b8b4e75.59605",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "d9a61570.a2d3d8",
+        "type": "debug",
+        "z": "587f8b93.289ac4",
+        "g": "8b8b4e75.59605",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "a0e853b2.0acbc8",
+        "type": "inject",
+        "z": "587f8b93.289ac4",
+        "g": "9634f261.6a0508",
+        "name": "Recipe 1",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Recipe",
+        "payload": "[{\"Mode\":1,\"Length\":20,\"Value\":50},{\"Mode\":2,\"Length\":65,\"Value\":22},{\"Mode\":5,\"Length\":0.6,\"Value\":2},{\"Mode\":9,\"Length\":42,\"Value\":0.44}]",
+        "payloadType": "json",
+        "x": 200,
+        "y": 1000,
+        "wires": [
+            [
+                "cd3ebfec.ad477",
+                "9c6f4f5d.3e15d8"
+            ]
+        ]
+    },
+    {
+        "id": "cd3ebfec.ad477",
+        "type": "split",
+        "z": "587f8b93.289ac4",
+        "g": "9634f261.6a0508",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 390,
+        "y": 1000,
+        "wires": [
+            [
+                "ba5ead5d.0c61d8"
+            ]
+        ]
+    },
+    {
+        "id": "6dadcf57.c4e",
+        "type": "batch",
+        "z": "587f8b93.289ac4",
+        "g": "9634f261.6a0508",
+        "name": "",
+        "mode": "concat",
+        "count": 10,
+        "overlap": 0,
+        "interval": 10,
+        "allowEmptySequence": false,
+        "topics": [
+            {
+                "topic": "Recipe"
+            }
+        ],
+        "x": 770,
+        "y": 1000,
+        "wires": [
+            [
+                "a1bbab6.8f62b58",
+                "2830ad8f.409e1a"
+            ]
+        ]
+    },
+    {
+        "id": "c65a3e87.549038",
+        "type": "debug",
+        "z": "587f8b93.289ac4",
+        "g": "9634f261.6a0508",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1050,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "ba5ead5d.0c61d8",
+        "type": "function",
+        "z": "587f8b93.289ac4",
+        "g": "9634f261.6a0508",
+        "name": "Organise Recipe",
+        "func": "var nRecipe = {}\n\nnRecipe = {\n    \"Mode\":msg.payload.Mode,\n    \"Length\":msg.payload.Length,\n    \"Value\":msg.payload.Value\n}\nmsg.payload = nRecipe\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 590,
+        "y": 1000,
+        "wires": [
+            [
+                "6dadcf57.c4e"
+            ]
+        ]
+    },
+    {
+        "id": "a1bbab6.8f62b58",
+        "type": "join",
+        "z": "587f8b93.289ac4",
+        "g": "9634f261.6a0508",
+        "name": "",
+        "mode": "auto",
+        "build": "string",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 910,
+        "y": 1000,
+        "wires": [
+            [
+                "c65a3e87.549038"
+            ]
+        ]
+    },
+    {
+        "id": "6f79bebe.f67168",
+        "type": "inject",
+        "z": "587f8b93.289ac4",
+        "g": "9634f261.6a0508",
+        "name": "Recipe 2",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Recipe",
+        "payload": "[{\"Length\":20,\"Value\":50,\"Mode\":1},{\"Mode\":2,\"Value\":22,\"Length\":65},{\"Value\":2,\"Mode\":5,\"Length\":0.6},{\"Length\":0.6,\"Mode\":9,\"Value\":0.44}]",
+        "payloadType": "json",
+        "x": 200,
+        "y": 1040,
+        "wires": [
+            [
+                "cd3ebfec.ad477",
+                "9c6f4f5d.3e15d8"
+            ]
+        ]
+    },
+    {
+        "id": "9c6f4f5d.3e15d8",
+        "type": "debug",
+        "z": "587f8b93.289ac4",
+        "g": "9634f261.6a0508",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 390,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "2830ad8f.409e1a",
+        "type": "debug",
+        "z": "587f8b93.289ac4",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 960,
+        "wires": []
+    }
+]
