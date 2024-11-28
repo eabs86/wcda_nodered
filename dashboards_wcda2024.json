@@ -1,0 +1,1857 @@
+[
+    {
+        "id": "7ec8e9189ea43b06",
+        "type": "tab",
+        "label": "Tutorial Dashboard",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "aa80c9053b7f7c80",
+        "type": "group",
+        "z": "7ec8e9189ea43b06",
+        "name": "Botões",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "1532ff27590913dd",
+            "a92950f6c36a0284",
+            "825bdde2919e527c",
+            "9511b74d73dcd178",
+            "2a84862e5be0f548",
+            "3f7743f39f345887",
+            "6b9d1ba94b5703bd",
+            "3d49d08eebae1683"
+        ],
+        "x": 134,
+        "y": 79,
+        "w": 712,
+        "h": 322
+    },
+    {
+        "id": "4ec2a987afbc4c6d",
+        "type": "group",
+        "z": "7ec8e9189ea43b06",
+        "name": "Dropdown",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "0ab0e0b9c33eef81",
+            "d5bfdc537ac35f60",
+            "b4bbc466b5d12ada",
+            "c71c3103c6565f0d",
+            "cfa21385c81d99a2",
+            "a0980b33163c7571",
+            "db31b6b69b29b638",
+            "7746fd8fe730c205",
+            "2ddd0b004373806f",
+            "70bfb5be6bc98531",
+            "45338ae7544fc722"
+        ],
+        "x": 134,
+        "y": 419,
+        "w": 672,
+        "h": 442
+    },
+    {
+        "id": "2322797129a8bcd7",
+        "type": "group",
+        "z": "7ec8e9189ea43b06",
+        "name": "Switch",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "8c35d39bc9b419e7",
+            "092d1c9c422c6b07",
+            "e5f25a53ebdfc5c0",
+            "714546d88c9336ca",
+            "b8de2354a1fd1c50",
+            "25c840f36efcd60a",
+            "8e82b1accfea5fd2",
+            "8683c4a474477481",
+            "26ef5e63339b456a"
+        ],
+        "x": 934,
+        "y": 499,
+        "w": 852,
+        "h": 322
+    },
+    {
+        "id": "e6bae511c75a29c9",
+        "type": "group",
+        "z": "7ec8e9189ea43b06",
+        "name": "Slider",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "779c8ae55117d4a3",
+            "dd20035ef72034c8",
+            "7350d288a830db65",
+            "86331d1965989e51",
+            "8640db2b0d9111eb",
+            "d9a1ffb998a13bbd",
+            "f2d97b0aea788f93",
+            "7bbe06adf2e8da8f",
+            "063ae82d9a75cf25"
+        ],
+        "x": 954,
+        "y": 79,
+        "w": 852,
+        "h": 382
+    },
+    {
+        "id": "cb2e80f1ce837107",
+        "type": "group",
+        "z": "7ec8e9189ea43b06",
+        "name": "Numeric",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "900c4208ea50e9d9",
+            "483234ed316a6de6",
+            "e934fa64064b585f",
+            "38dc16ac2f5fe2f4",
+            "9385ad8be4300acc",
+            "b1f1e897ab7a7bd0",
+            "62a882910b2eb703",
+            "fe5a5f1a85a7f71d",
+            "d6c1167e8c82f280"
+        ],
+        "x": 134,
+        "y": 899,
+        "w": 732,
+        "h": 362
+    },
+    {
+        "id": "7019881ba270341d",
+        "type": "group",
+        "z": "7ec8e9189ea43b06",
+        "name": "Gauges e Graficos",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "c36d984b527ff540",
+            "cc77a1f83e7f3e26",
+            "d8a4538c14c45b4c",
+            "1c2bb35e2dc503d4",
+            "de35142976872e8d",
+            "60a72346b6b3e146",
+            "9923a4380ed92e58",
+            "391528b8dad3ea53",
+            "a95add6a5a75d31f",
+            "217ece574519aa33"
+        ],
+        "x": 1034,
+        "y": 899,
+        "w": 712,
+        "h": 402
+    },
+    {
+        "id": "1532ff27590913dd",
+        "type": "debug",
+        "z": "7ec8e9189ea43b06",
+        "g": "aa80c9053b7f7c80",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "a92950f6c36a0284",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "aa80c9053b7f7c80",
+        "name": "",
+        "group": "258e81d8e70e3910",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Enviar",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "send",
+        "payload": "Enviar dados",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 230,
+        "y": 200,
+        "wires": [
+            [
+                "825bdde2919e527c"
+            ]
+        ]
+    },
+    {
+        "id": "825bdde2919e527c",
+        "type": "debug",
+        "z": "7ec8e9189ea43b06",
+        "g": "aa80c9053b7f7c80",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "9511b74d73dcd178",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "aa80c9053b7f7c80",
+        "name": "",
+        "group": "258e81d8e70e3910",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Botao Generico",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "Botão Pressionado",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 240,
+        "y": 120,
+        "wires": [
+            [
+                "1532ff27590913dd"
+            ]
+        ]
+    },
+    {
+        "id": "2a84862e5be0f548",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "aa80c9053b7f7c80",
+        "name": "",
+        "group": "c7435f899674ef1c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Habilita",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 220,
+        "y": 300,
+        "wires": [
+            [
+                "6b9d1ba94b5703bd"
+            ]
+        ]
+    },
+    {
+        "id": "3f7743f39f345887",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "aa80c9053b7f7c80",
+        "name": "",
+        "group": "c7435f899674ef1c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Desabilita",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 220,
+        "y": 360,
+        "wires": [
+            [
+                "6b9d1ba94b5703bd"
+            ]
+        ]
+    },
+    {
+        "id": "6b9d1ba94b5703bd",
+        "type": "change",
+        "z": "7ec8e9189ea43b06",
+        "g": "aa80c9053b7f7c80",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 340,
+        "wires": [
+            [
+                "3d49d08eebae1683"
+            ]
+        ]
+    },
+    {
+        "id": "3d49d08eebae1683",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "aa80c9053b7f7c80",
+        "name": "",
+        "group": "258e81d8e70e3910",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Habilita/Desabilita",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 730,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0ab0e0b9c33eef81",
+        "type": "ui_dropdown",
+        "z": "7ec8e9189ea43b06",
+        "g": "4ec2a987afbc4c6d",
+        "name": "",
+        "label": "Seletor",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "b962a601131ffc1b",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Topico 1",
+                "value": "Topico 1",
+                "type": "str"
+            },
+            {
+                "label": "Nome",
+                "value": "Nome",
+                "type": "str"
+            },
+            {
+                "label": "Endereco",
+                "value": "Endereco",
+                "type": "str"
+            },
+            {
+                "label": "Idade",
+                "value": 30,
+                "type": "num"
+            },
+            {
+                "label": "Status",
+                "value": true,
+                "type": "bool"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 300,
+        "y": 460,
+        "wires": [
+            [
+                "d5bfdc537ac35f60"
+            ]
+        ]
+    },
+    {
+        "id": "d5bfdc537ac35f60",
+        "type": "debug",
+        "z": "7ec8e9189ea43b06",
+        "g": "4ec2a987afbc4c6d",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "b4bbc466b5d12ada",
+        "type": "ui_dropdown",
+        "z": "7ec8e9189ea43b06",
+        "g": "4ec2a987afbc4c6d",
+        "name": "",
+        "label": "Seletor por Botao",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "b962a601131ffc1b",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Topico 1",
+                "value": "Topico 1",
+                "type": "str"
+            },
+            {
+                "label": "Nome",
+                "value": "Nome",
+                "type": "str"
+            },
+            {
+                "label": "Endereco",
+                "value": "Endereco",
+                "type": "str"
+            },
+            {
+                "label": "Idade",
+                "value": 30,
+                "type": "num"
+            },
+            {
+                "label": "Status",
+                "value": true,
+                "type": "bool"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 510,
+        "y": 560,
+        "wires": [
+            [
+                "c71c3103c6565f0d"
+            ]
+        ]
+    },
+    {
+        "id": "c71c3103c6565f0d",
+        "type": "debug",
+        "z": "7ec8e9189ea43b06",
+        "g": "4ec2a987afbc4c6d",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 700,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "cfa21385c81d99a2",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "4ec2a987afbc4c6d",
+        "name": "",
+        "group": "b962a601131ffc1b",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Botao Idade",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "30",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 250,
+        "y": 700,
+        "wires": [
+            [
+                "b4bbc466b5d12ada"
+            ]
+        ]
+    },
+    {
+        "id": "a0980b33163c7571",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "4ec2a987afbc4c6d",
+        "name": "",
+        "group": "b962a601131ffc1b",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Botao Endereco",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "Endereco",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 260,
+        "y": 640,
+        "wires": [
+            [
+                "b4bbc466b5d12ada"
+            ]
+        ]
+    },
+    {
+        "id": "db31b6b69b29b638",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "4ec2a987afbc4c6d",
+        "name": "",
+        "group": "b962a601131ffc1b",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Botao Nome",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "Nome",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 250,
+        "y": 600,
+        "wires": [
+            [
+                "b4bbc466b5d12ada"
+            ]
+        ]
+    },
+    {
+        "id": "7746fd8fe730c205",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "4ec2a987afbc4c6d",
+        "name": "",
+        "group": "b962a601131ffc1b",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Botao Topico 1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "Topico 1",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 240,
+        "y": 540,
+        "wires": [
+            [
+                "b4bbc466b5d12ada"
+            ]
+        ]
+    },
+    {
+        "id": "2ddd0b004373806f",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "4ec2a987afbc4c6d",
+        "name": "",
+        "group": "b962a601131ffc1b",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Botao Status",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 250,
+        "y": 760,
+        "wires": [
+            [
+                "b4bbc466b5d12ada"
+            ]
+        ]
+    },
+    {
+        "id": "70bfb5be6bc98531",
+        "type": "change",
+        "z": "7ec8e9189ea43b06",
+        "g": "4ec2a987afbc4c6d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "options",
+                "pt": "msg",
+                "to": "[\"Novo Topico\",{\"New Topic 1\":0,\"New Topic 2\":2}]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 760,
+        "wires": [
+            [
+                "b4bbc466b5d12ada"
+            ]
+        ]
+    },
+    {
+        "id": "45338ae7544fc722",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "4ec2a987afbc4c6d",
+        "name": "",
+        "group": "81764e141d9410ad",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Mudar Seletores",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "orange",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 260,
+        "y": 820,
+        "wires": [
+            [
+                "70bfb5be6bc98531"
+            ]
+        ]
+    },
+    {
+        "id": "8c35d39bc9b419e7",
+        "type": "ui_switch",
+        "z": "7ec8e9189ea43b06",
+        "g": "2322797129a8bcd7",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "1e68cfd4ce66f0ca",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "x": 1150,
+        "y": 540,
+        "wires": [
+            [
+                "092d1c9c422c6b07"
+            ]
+        ]
+    },
+    {
+        "id": "092d1c9c422c6b07",
+        "type": "debug",
+        "z": "7ec8e9189ea43b06",
+        "g": "2322797129a8bcd7",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1340,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "e5f25a53ebdfc5c0",
+        "type": "ui_switch",
+        "z": "7ec8e9189ea43b06",
+        "g": "2322797129a8bcd7",
+        "name": "",
+        "label": "Custom Switch",
+        "tooltip": "",
+        "group": "1e68cfd4ce66f0ca",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "check",
+        "oncolor": "green",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "close",
+        "offcolor": "red",
+        "animate": true,
+        "x": 1180,
+        "y": 620,
+        "wires": [
+            [
+                "714546d88c9336ca"
+            ]
+        ]
+    },
+    {
+        "id": "714546d88c9336ca",
+        "type": "debug",
+        "z": "7ec8e9189ea43b06",
+        "g": "2322797129a8bcd7",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1340,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "b8de2354a1fd1c50",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "2322797129a8bcd7",
+        "name": "",
+        "group": "e1f333ed378d2728",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Habilita",
+        "tooltip": "",
+        "color": "green",
+        "bgcolor": "white",
+        "icon": "fa-cog",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1020,
+        "y": 720,
+        "wires": [
+            [
+                "8e82b1accfea5fd2"
+            ]
+        ]
+    },
+    {
+        "id": "25c840f36efcd60a",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "2322797129a8bcd7",
+        "name": "",
+        "group": "e1f333ed378d2728",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Desabilita",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "icon": "fa-cog",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1020,
+        "y": 780,
+        "wires": [
+            [
+                "8e82b1accfea5fd2"
+            ]
+        ]
+    },
+    {
+        "id": "8e82b1accfea5fd2",
+        "type": "change",
+        "z": "7ec8e9189ea43b06",
+        "g": "2322797129a8bcd7",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1240,
+        "y": 760,
+        "wires": [
+            [
+                "8683c4a474477481"
+            ]
+        ]
+    },
+    {
+        "id": "8683c4a474477481",
+        "type": "ui_switch",
+        "z": "7ec8e9189ea43b06",
+        "g": "2322797129a8bcd7",
+        "name": "",
+        "label": "Switch com botão",
+        "tooltip": "",
+        "group": "1e68cfd4ce66f0ca",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "x": 1450,
+        "y": 760,
+        "wires": [
+            [
+                "26ef5e63339b456a"
+            ]
+        ]
+    },
+    {
+        "id": "26ef5e63339b456a",
+        "type": "debug",
+        "z": "7ec8e9189ea43b06",
+        "g": "2322797129a8bcd7",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1680,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "779c8ae55117d4a3",
+        "type": "ui_slider",
+        "z": "7ec8e9189ea43b06",
+        "g": "e6bae511c75a29c9",
+        "name": "",
+        "label": "slider",
+        "tooltip": "",
+        "group": "d2e83866d6bb4384",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "x": 1210,
+        "y": 120,
+        "wires": [
+            [
+                "dd20035ef72034c8"
+            ]
+        ]
+    },
+    {
+        "id": "dd20035ef72034c8",
+        "type": "debug",
+        "z": "7ec8e9189ea43b06",
+        "g": "e6bae511c75a29c9",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1400,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "7350d288a830db65",
+        "type": "ui_slider",
+        "z": "7ec8e9189ea43b06",
+        "g": "e6bae511c75a29c9",
+        "name": "",
+        "label": "Slider com Botões",
+        "tooltip": "",
+        "group": "d2e83866d6bb4384",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "x": 1490,
+        "y": 300,
+        "wires": [
+            [
+                "86331d1965989e51"
+            ]
+        ]
+    },
+    {
+        "id": "86331d1965989e51",
+        "type": "debug",
+        "z": "7ec8e9189ea43b06",
+        "g": "e6bae511c75a29c9",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1700,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "8640db2b0d9111eb",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "e6bae511c75a29c9",
+        "name": "",
+        "group": "bd31eb617d3349d0",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Habilita",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1040,
+        "y": 260,
+        "wires": [
+            [
+                "f2d97b0aea788f93"
+            ]
+        ]
+    },
+    {
+        "id": "d9a1ffb998a13bbd",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "e6bae511c75a29c9",
+        "name": "",
+        "group": "bd31eb617d3349d0",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Desabilita",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1040,
+        "y": 320,
+        "wires": [
+            [
+                "f2d97b0aea788f93"
+            ]
+        ]
+    },
+    {
+        "id": "f2d97b0aea788f93",
+        "type": "change",
+        "z": "7ec8e9189ea43b06",
+        "g": "e6bae511c75a29c9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1260,
+        "y": 300,
+        "wires": [
+            [
+                "7350d288a830db65"
+            ]
+        ]
+    },
+    {
+        "id": "7bbe06adf2e8da8f",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "e6bae511c75a29c9",
+        "name": "",
+        "group": "bd31eb617d3349d0",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Setar Valor Aleatório",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1160,
+        "y": 420,
+        "wires": [
+            [
+                "063ae82d9a75cf25"
+            ]
+        ]
+    },
+    {
+        "id": "063ae82d9a75cf25",
+        "type": "random",
+        "z": "7ec8e9189ea43b06",
+        "g": "e6bae511c75a29c9",
+        "name": "",
+        "low": 1,
+        "high": "100",
+        "inte": "true",
+        "property": "payload",
+        "x": 1360,
+        "y": 420,
+        "wires": [
+            [
+                "7350d288a830db65"
+            ]
+        ]
+    },
+    {
+        "id": "900c4208ea50e9d9",
+        "type": "ui_numeric",
+        "z": "7ec8e9189ea43b06",
+        "g": "cb2e80f1ce837107",
+        "name": "",
+        "label": "numeric",
+        "tooltip": "",
+        "group": "fcbda89011690118",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "x": 220,
+        "y": 940,
+        "wires": [
+            [
+                "483234ed316a6de6"
+            ]
+        ]
+    },
+    {
+        "id": "483234ed316a6de6",
+        "type": "debug",
+        "z": "7ec8e9189ea43b06",
+        "g": "cb2e80f1ce837107",
+        "name": "debug 11",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 380,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "e934fa64064b585f",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "cb2e80f1ce837107",
+        "name": "",
+        "group": "84f0fb67efceb6c8",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Habilita",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 220,
+        "y": 1080,
+        "wires": [
+            [
+                "9385ad8be4300acc"
+            ]
+        ]
+    },
+    {
+        "id": "38dc16ac2f5fe2f4",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "cb2e80f1ce837107",
+        "name": "",
+        "group": "84f0fb67efceb6c8",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Desabilita",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 220,
+        "y": 1140,
+        "wires": [
+            [
+                "9385ad8be4300acc"
+            ]
+        ]
+    },
+    {
+        "id": "9385ad8be4300acc",
+        "type": "change",
+        "z": "7ec8e9189ea43b06",
+        "g": "cb2e80f1ce837107",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 1120,
+        "wires": [
+            [
+                "b1f1e897ab7a7bd0"
+            ]
+        ]
+    },
+    {
+        "id": "b1f1e897ab7a7bd0",
+        "type": "ui_numeric",
+        "z": "7ec8e9189ea43b06",
+        "g": "cb2e80f1ce837107",
+        "name": "",
+        "label": "numeric",
+        "tooltip": "",
+        "group": "fcbda89011690118",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}%",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "x": 620,
+        "y": 1120,
+        "wires": [
+            [
+                "62a882910b2eb703"
+            ]
+        ]
+    },
+    {
+        "id": "62a882910b2eb703",
+        "type": "debug",
+        "z": "7ec8e9189ea43b06",
+        "g": "cb2e80f1ce837107",
+        "name": "debug 12",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "fe5a5f1a85a7f71d",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "cb2e80f1ce837107",
+        "name": "",
+        "group": "84f0fb67efceb6c8",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Setar Valor Aleatório",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 260,
+        "y": 1220,
+        "wires": [
+            [
+                "d6c1167e8c82f280"
+            ]
+        ]
+    },
+    {
+        "id": "d6c1167e8c82f280",
+        "type": "random",
+        "z": "7ec8e9189ea43b06",
+        "g": "cb2e80f1ce837107",
+        "name": "",
+        "low": 1,
+        "high": "100",
+        "inte": "true",
+        "property": "payload",
+        "x": 460,
+        "y": 1220,
+        "wires": [
+            [
+                "b1f1e897ab7a7bd0"
+            ]
+        ]
+    },
+    {
+        "id": "c36d984b527ff540",
+        "type": "ui_gauge",
+        "z": "7ec8e9189ea43b06",
+        "g": "7019881ba270341d",
+        "name": "",
+        "group": "5ea88c38bf17e99a",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temperatura",
+        "label": "ºC",
+        "format": "{{value}}",
+        "min": "-50",
+        "max": "50",
+        "colors": [
+            "#397dd5",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "-10",
+        "seg2": "25",
+        "x": 1570,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "cc77a1f83e7f3e26",
+        "type": "inject",
+        "z": "7ec8e9189ea43b06",
+        "g": "7019881ba270341d",
+        "name": "Trigger",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1140,
+        "y": 960,
+        "wires": [
+            [
+                "d8a4538c14c45b4c"
+            ]
+        ]
+    },
+    {
+        "id": "d8a4538c14c45b4c",
+        "type": "function",
+        "z": "7ec8e9189ea43b06",
+        "g": "7019881ba270341d",
+        "name": "function 1",
+        "func": "// Gerando numeros aleatorios\n\nmsg.payload = parseFloat(((Math.random() - 0.5) * 100).toFixed(2));\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1320,
+        "y": 1000,
+        "wires": [
+            [
+                "c36d984b527ff540",
+                "9923a4380ed92e58"
+            ]
+        ]
+    },
+    {
+        "id": "1c2bb35e2dc503d4",
+        "type": "ui_gauge",
+        "z": "7ec8e9189ea43b06",
+        "g": "7019881ba270341d",
+        "name": "",
+        "group": "5ea88c38bf17e99a",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Umidade Relativa",
+        "label": "%",
+        "format": "{{value | number:2}}",
+        "min": "0",
+        "max": "100",
+        "colors": [
+            "#d53939",
+            "#e6e600",
+            "#3694ec"
+        ],
+        "seg1": "10",
+        "seg2": "50",
+        "x": 1590,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "de35142976872e8d",
+        "type": "inject",
+        "z": "7ec8e9189ea43b06",
+        "g": "7019881ba270341d",
+        "name": "Trigger",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1140,
+        "y": 1060,
+        "wires": [
+            [
+                "60a72346b6b3e146",
+                "217ece574519aa33"
+            ]
+        ]
+    },
+    {
+        "id": "60a72346b6b3e146",
+        "type": "function",
+        "z": "7ec8e9189ea43b06",
+        "g": "7019881ba270341d",
+        "name": "function 2",
+        "func": "// Gerando numeros aleatorios\n\nmsg.payload = parseFloat(((Math.random()) * 100));\nmsg.topic = \"Umidade Sala\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1320,
+        "y": 1100,
+        "wires": [
+            [
+                "1c2bb35e2dc503d4",
+                "391528b8dad3ea53"
+            ]
+        ]
+    },
+    {
+        "id": "9923a4380ed92e58",
+        "type": "ui_chart",
+        "z": "7ec8e9189ea43b06",
+        "g": "7019881ba270341d",
+        "name": "",
+        "group": "ab9c9aa15be24a68",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Histórico de Temperatura",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-50",
+        "ymax": "50",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 1610,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "391528b8dad3ea53",
+        "type": "ui_chart",
+        "z": "7ec8e9189ea43b06",
+        "g": "7019881ba270341d",
+        "name": "",
+        "group": "ab9c9aa15be24a68",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Histórico de Umidade",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#ec1818",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 1600,
+        "y": 1120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a95add6a5a75d31f",
+        "type": "ui_button",
+        "z": "7ec8e9189ea43b06",
+        "g": "7019881ba270341d",
+        "name": "",
+        "group": "80ba02adb15f48cd",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Limpar Graficos",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "refresh",
+        "payload": "[]",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1300,
+        "y": 1260,
+        "wires": [
+            [
+                "9923a4380ed92e58",
+                "391528b8dad3ea53"
+            ]
+        ]
+    },
+    {
+        "id": "217ece574519aa33",
+        "type": "function",
+        "z": "7ec8e9189ea43b06",
+        "g": "7019881ba270341d",
+        "name": "function 3",
+        "func": "// Gerando numeros aleatorios\n\nmsg.payload = parseFloat(((Math.random()) * 100));\nmsg.topic = \"Umidade Quarto\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1320,
+        "y": 1140,
+        "wires": [
+            [
+                "391528b8dad3ea53"
+            ]
+        ]
+    },
+    {
+        "id": "58cfe1dc1c249e49",
+        "type": "ui_spacer",
+        "z": "7ec8e9189ea43b06",
+        "name": "spacer",
+        "group": "5ea88c38bf17e99a",
+        "order": 2,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "258e81d8e70e3910",
+        "type": "ui_group",
+        "name": "Botoes",
+        "tab": "cba1bc67e35e3839",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "c7435f899674ef1c",
+        "type": "ui_group",
+        "name": "Config",
+        "tab": "cba1bc67e35e3839",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "b962a601131ffc1b",
+        "type": "ui_group",
+        "name": "Ação",
+        "tab": "64a5cf243e937b80",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "81764e141d9410ad",
+        "type": "ui_group",
+        "name": "Config",
+        "tab": "64a5cf243e937b80",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "1e68cfd4ce66f0ca",
+        "type": "ui_group",
+        "name": "Ação",
+        "tab": "66335acb475111ef",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "e1f333ed378d2728",
+        "type": "ui_group",
+        "name": "Config",
+        "tab": "66335acb475111ef",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "d2e83866d6bb4384",
+        "type": "ui_group",
+        "name": "Ação",
+        "tab": "a6d5e48423013aea",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "bd31eb617d3349d0",
+        "type": "ui_group",
+        "name": "Config",
+        "tab": "a6d5e48423013aea",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "fcbda89011690118",
+        "type": "ui_group",
+        "name": "Ação",
+        "tab": "5421646333419e2a",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "84f0fb67efceb6c8",
+        "type": "ui_group",
+        "name": "Config",
+        "tab": "5421646333419e2a",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "5ea88c38bf17e99a",
+        "type": "ui_group",
+        "name": "Gauges",
+        "tab": "e86d7c2a5d03c70d",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false
+    },
+    {
+        "id": "ab9c9aa15be24a68",
+        "type": "ui_group",
+        "name": "Charts",
+        "tab": "e86d7c2a5d03c70d",
+        "order": 2,
+        "disp": true,
+        "width": 10,
+        "collapse": false
+    },
+    {
+        "id": "80ba02adb15f48cd",
+        "type": "ui_group",
+        "name": "Configs",
+        "tab": "e86d7c2a5d03c70d",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "cba1bc67e35e3839",
+        "type": "ui_tab",
+        "name": "Botoes",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "64a5cf243e937b80",
+        "type": "ui_tab",
+        "name": "Dropdown",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "66335acb475111ef",
+        "type": "ui_tab",
+        "name": "Switch",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "a6d5e48423013aea",
+        "type": "ui_tab",
+        "name": "Slider",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "5421646333419e2a",
+        "type": "ui_tab",
+        "name": "Numeric",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e86d7c2a5d03c70d",
+        "type": "ui_tab",
+        "name": "Gauge & Line Chart",
+        "icon": "dashboard",
+        "order": 6,
+        "disabled": false,
+        "hidden": false
+    }
+]
